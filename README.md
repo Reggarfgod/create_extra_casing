@@ -34,3 +34,15 @@
 </ul>
 <p>Each of these casings can be used to <strong>build, customize, and organize your Create machinery</strong>, bringing new aesthetics and functionality to your contraptions.</p>
 <p>Would you like any <strong>specific color additions or texture effects</strong> to be included? 😊</p>
+<p style="text-align: center;">&nbsp;</p>
+<hr>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<h1 style="text-align: center;"><span style="text-decoration: underline;"><strong><a href="https://zap-hosting.com/createletscreate" rel="nofollow"><img src="https://media.forgecdn.net/attachments/description/1010929/description_6bc26b56-9563-428f-9ac8-41c9f43ff6a2.gif" alt="" width="300" height="250"></a><br><br>THANKS TO OUR SPONSORS</strong></span></h1>
+<p style="text-align: center;"><strong>THANKS TO ZAP-HOSTING! Use code Reggarf-1047 for 20% off any order!</strong></p>
+<p style="text-align: center;">https://zap-hosting.com/createletscreate</p>
+<p style="text-align: center;"><a href="https://zap-hosting.com/createletscreate" rel="nofollow"><img src="https://media.forgecdn.net/attachments/description/1010929/description_2dbdedf7-e1a0-4bcd-86a6-01c26447af70.png" alt="" width="678" height="87"></a></p>
+<p style="text-align: center;">&nbsp;</p>
+<hr>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
