@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.reggarf.mods.create_extra_casing.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "create_extra_casing.refmap.json",
+  "mixins": [
+
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

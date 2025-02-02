@@ -1,0 +1,7 @@
+{
+  "parent": "create:block/encased_fluid_pipe/block_flat",
+  "textures": {
+    "0": "create_extra_casing:block/light_gray_casing",
+    "particle": "create_extra_casing:block/light_gray_casing"
+  }
+}

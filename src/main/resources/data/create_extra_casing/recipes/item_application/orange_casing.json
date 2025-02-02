@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:andesite_casing"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_extra_casing:orange_casing"
+    }
+  ]
+}

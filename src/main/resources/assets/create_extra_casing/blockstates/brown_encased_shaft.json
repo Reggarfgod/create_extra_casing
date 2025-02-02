@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "create_extra_casing:block/brown_encased_shaft/block_brown",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "create_extra_casing:block/brown_encased_shaft/block_brown",
+      "uvlock": true
+    },
+    "axis=z": {
+      "model": "create_extra_casing:block/brown_encased_shaft/block_brown",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    }
+  }
+}

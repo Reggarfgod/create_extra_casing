@@ -1,0 +1,29 @@
+{
+  "block.create_extra_casing.red_casing": "Red Casing",
+  "block.create_extra_casing.black_casing": "Black Casing",
+  "block.create_extra_casing.white_casing": "White Casing",
+  "block.create_extra_casing.gray_casing": "Gray Casing",
+  "block.create_extra_casing.light_gray_casing": "Light Gray Casing",
+  "block.create_extra_casing.green_casing": "Green Casing",
+  "block.create_extra_casing.lime_casing": "Lime Casing",
+  "block.create_extra_casing.blue_casing": "Blue Casing",
+  "block.create_extra_casing.pink_casing": "Pink Casing",
+  "block.create_extra_casing.brown_casing": "Brown Casing",
+  "block.create_extra_casing.purple_casing": "Purple Casing",
+  "block.create_extra_casing.light_blue_casing": "Light Blue Casing",
+  "block.create_extra_casing.orange_casing": "Orange Casing",
+  "block.create_extra_casing.yellow_casing": "Yellow Casing",
+  "block.create_extra_casing.cyan_casing": "Cyan Casing",
+  "block.create_extra_casing.magenta_casing": "Magenta Casing",
+
+  "creativetab.create_extra_casing_tab": "Create: Extra Casing",
+
+  "create_extra_casing.ponder.shaft_extra_casing.header": "Encasing Shafts with Extra Casings",
+  "create_extra_casing.ponder.shaft_extra_casing.text_1": "Extra Casings can be used to decorate Shafts",
+
+  "create_extra_casing.ponder.cogwheel_extra_casing.header": "Encasing Cogwheels with Extra Casings",
+  "create_extra_casing.ponder.cogwheel_extra_casing.text_1": "Extra Casings can be used to decorate Cogwheels",
+  "create_extra_casing.ponder.cogwheel_extra_casing.text_2": "Components added after encasing will not connect to the shaft outputs",
+  "create_extra_casing.ponder.cogwheel_extra_casing.text_3": "The Wrench can be used to toggle connections"
+
+}

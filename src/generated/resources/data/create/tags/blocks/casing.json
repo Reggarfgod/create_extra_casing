@@ -1,0 +1,20 @@
+{
+  "values": [
+    "create_extra_casing:red_casing",
+    "create_extra_casing:white_casing",
+    "create_extra_casing:black_casing",
+    "create_extra_casing:gray_casing",
+    "create_extra_casing:light_gray_casing",
+    "create_extra_casing:light_blue_casing",
+    "create_extra_casing:blue_casing",
+    "create_extra_casing:brown_casing",
+    "create_extra_casing:orange_casing",
+    "create_extra_casing:yellow_casing",
+    "create_extra_casing:pink_casing",
+    "create_extra_casing:green_casing",
+    "create_extra_casing:lime_casing",
+    "create_extra_casing:cyan_casing",
+    "create_extra_casing:magenta_casing",
+    "create_extra_casing:purple_casing"
+  ]
+}

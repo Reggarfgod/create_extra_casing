@@ -1,0 +1,474 @@
+[02Feb2025 19:56:52.733] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Anoop Singh\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mixin.config, create_extra_casing.mixins.json]
+[02Feb2025 19:56:52.736] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[02Feb2025 19:56:52.811] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file D:\Create_Extra_Casing\run\config\fml.toml is not correct. Correcting
+[02Feb2025 19:56:52.813] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[02Feb2025 19:56:52.813] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[02Feb2025 19:56:52.813] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[02Feb2025 19:56:52.825] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[02Feb2025 19:56:52.873] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[02Feb2025 19:56:53.094] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[02Feb2025 19:56:53.155] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Anoop%20Singh/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[02Feb2025 19:56:53.190] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.36, NVIDIA Corporation
+[02Feb2025 19:56:53.401] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Anoop Singh\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[02Feb2025 19:56:53.403] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Anoop Singh\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[02Feb2025 19:56:53.405] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Anoop Singh\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[02Feb2025 19:56:53.406] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Anoop Singh\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[02Feb2025 19:56:53.487] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[02Feb2025 19:56:54.535] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02Feb2025 19:56:54.540] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Anoop Singh\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[02Feb2025 19:56:54.588] [main/WARN] [mixin/]: Reference map 'create_extra_casing.refmap.json' for create_extra_casing.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Feb2025 19:56:54.765] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using D:\Create_Extra_Casing/build/createSrgToMcp/output.srg
+[02Feb2025 19:56:54.767] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using D:\Create_Extra_Casing/build/createSrgToMcp/output.srg
+[02Feb2025 19:56:57.532] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 83 milliseconds
+[02Feb2025 19:56:58.720] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Anoop%20Singh/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[02Feb2025 19:56:58.720] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Anoop%20Singh/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[02Feb2025 19:56:58.730] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02Feb2025 19:56:58.734] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[02Feb2025 19:56:58.789] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[02Feb2025 19:56:58.986] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[02Feb2025 19:56:58.987] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[02Feb2025 19:56:58.989] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
+[02Feb2025 19:56:59.154] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[02Feb2025 19:56:59.156] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 1.324 ms
+[02Feb2025 19:57:01.231] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [create_extra_casing]
+[02Feb2025 19:57:01.496] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[02Feb2025 19:57:01.513] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\Create_Extra_Casing\run\config\flywheel-client.toml is not correct. Correcting
+[02Feb2025 19:57:01.514] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key backend was corrected from null to its default, INSTANCING. 
+[02Feb2025 19:57:01.515] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debugNormals was corrected from null to its default, false. 
+[02Feb2025 19:57:01.515] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key limitUpdates was corrected from null to its default, true. 
+[02Feb2025 19:57:01.518] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\Create_Extra_Casing\run\config\forge-client.toml is not correct. Correcting
+[02Feb2025 19:57:01.519] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:01.519] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to its default, false. 
+[02Feb2025 19:57:01.519] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false. 
+[02Feb2025 19:57:01.519] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to its default, true. 
+[02Feb2025 19:57:01.519] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to its default, false. 
+[02Feb2025 19:57:01.519] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.compressLanIPv6Addresses was corrected from null to its default, true. 
+[02Feb2025 19:57:01.519] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.calculateAllNormals was corrected from null to its default, false. 
+[02Feb2025 19:57:01.519] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.stabilizeDirectionGetNearest was corrected from null to its default, true. 
+[02Feb2025 19:57:01.522] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\Create_Extra_Casing\run\config\create-client.toml is not correct. Correcting
+[02Feb2025 19:57:01.522] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:01.523] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.enableTooltips was corrected from null to its default, true. 
+[02Feb2025 19:57:01.523] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.enableOverstressedTooltip was corrected from null to its default, true. 
+[02Feb2025 19:57:01.523] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.explainRenderErrors was corrected from null to its default, false. 
+[02Feb2025 19:57:01.523] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.fanParticleDensity was corrected from null to its default, 0.5. 
+[02Feb2025 19:57:01.523] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.filterItemRenderDistance was corrected from null to its default, 10.0. 
+[02Feb2025 19:57:01.523] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.enableRainbowDebug was corrected from null to its default, false. 
+[02Feb2025 19:57:01.523] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.maximumContraptionLightVolume was corrected from null to its default, 16384. 
+[02Feb2025 19:57:01.523] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.mainMenuConfigButtonRow was corrected from null to its default, 2. 
+[02Feb2025 19:57:01.523] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.mainMenuConfigButtonOffsetX was corrected from null to its default, -4. 
+[02Feb2025 19:57:01.523] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ingameMenuConfigButtonRow was corrected from null to its default, 3. 
+[02Feb2025 19:57:01.523] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ingameMenuConfigButtonOffsetX was corrected from null to its default, -4. 
+[02Feb2025 19:57:01.523] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ignoreFabulousWarning was corrected from null to its default, false. 
+[02Feb2025 19:57:01.523] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.rotateWhenSeated was corrected from null to its default, true. 
+[02Feb2025 19:57:01.524] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.fluidFogSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:01.524] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.fluidFogSettings.honey was corrected from null to its default, 1.0. 
+[02Feb2025 19:57:01.524] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.fluidFogSettings.chocolate was corrected from null to its default, 1.0. 
+[02Feb2025 19:57:01.524] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:01.524] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.overlayOffsetX was corrected from null to its default, 20. 
+[02Feb2025 19:57:01.524] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.overlayOffsetY was corrected from null to its default, 0. 
+[02Feb2025 19:57:01.524] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.customColorsOverlay was corrected from null to its default, false. 
+[02Feb2025 19:57:01.524] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.customBackgroundOverlay was corrected from null to its default, -267386864. 
+[02Feb2025 19:57:01.524] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.customBorderTopOverlay was corrected from null to its default, 1347420415. 
+[02Feb2025 19:57:01.524] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.customBorderBotOverlay was corrected from null to its default, 1344798847. 
+[02Feb2025 19:57:01.525] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.placementAssist was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:01.525] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.placementAssist.indicatorType was corrected from null to its default, TEXTURE. 
+[02Feb2025 19:57:01.525] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.placementAssist.indicatorScale was corrected from null to its default, 1.0. 
+[02Feb2025 19:57:01.525] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ponder was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:01.525] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ponder.comfyReading was corrected from null to its default, false. 
+[02Feb2025 19:57:01.525] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ponder.editingMode was corrected from null to its default, false. 
+[02Feb2025 19:57:01.525] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.sound was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:01.525] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.sound.enableAmbientSounds was corrected from null to its default, true. 
+[02Feb2025 19:57:01.525] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.sound.ambientVolumeCap was corrected from null to its default, 0.10000000149011612. 
+[02Feb2025 19:57:01.525] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.trains was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:01.525] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.trains.mountedZoomMultiplier was corrected from null to its default, 3.0. 
+[02Feb2025 19:57:01.526] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.trains.showTrackGraphOnF3 was corrected from null to its default, false. 
+[02Feb2025 19:57:01.526] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.trains.showExtendedTrackGraphOnF3 was corrected from null to its default, false. 
+[02Feb2025 19:57:01.530] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\Create_Extra_Casing\run\config\create-common.toml is not correct. Correcting
+[02Feb2025 19:57:01.531] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:01.531] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.disableWorldGen was corrected from null to its default, false. 
+[02Feb2025 19:57:01.575] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[02Feb2025 19:57:01.710] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[02Feb2025 19:57:01.865] [Worker-Main-10/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model create_extra_casing:models/block/copper_encased_steel_pipe/block_flat.json
+com.google.gson.JsonParseException: JSON data was null or empty
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:533) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:581) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:red_encased_shaft#inventory' referenced from: create_extra_casing:red_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/red_encased_shaft.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:red_encased_cogwheel#inventory' referenced from: create_extra_casing:red_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/red_encased_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:red_encased_large_cogwheel#inventory' referenced from: create_extra_casing:red_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/red_encased_large_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:white_encased_shaft#inventory' referenced from: create_extra_casing:white_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/white_encased_shaft.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:white_encased_cogwheel#inventory' referenced from: create_extra_casing:white_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/white_encased_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:white_encased_large_cogwheel#inventory' referenced from: create_extra_casing:white_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/white_encased_large_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:black_encased_shaft#inventory' referenced from: create_extra_casing:black_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/black_encased_shaft.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:black_encased_cogwheel#inventory' referenced from: create_extra_casing:black_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/black_encased_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:black_encased_large_cogwheel#inventory' referenced from: create_extra_casing:black_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/black_encased_large_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:gray_encased_shaft#inventory' referenced from: create_extra_casing:gray_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/gray_encased_shaft.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:gray_encased_cogwheel#inventory' referenced from: create_extra_casing:gray_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/gray_encased_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:gray_encased_large_cogwheel#inventory' referenced from: create_extra_casing:gray_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/gray_encased_large_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:light_gray_encased_shaft#inventory' referenced from: create_extra_casing:light_gray_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/light_gray_encased_shaft.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:light_gray_encased_cogwheel#inventory' referenced from: create_extra_casing:light_gray_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/light_gray_encased_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:light_gray_encased_large_cogwheel#inventory' referenced from: create_extra_casing:light_gray_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/light_gray_encased_large_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:light_blue_encased_shaft#inventory' referenced from: create_extra_casing:light_blue_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/light_blue_encased_shaft.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:light_blue_encased_cogwheel#inventory' referenced from: create_extra_casing:light_blue_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/light_blue_encased_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:light_blue_encased_large_cogwheel#inventory' referenced from: create_extra_casing:light_blue_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/light_blue_encased_large_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:blue_encased_shaft#inventory' referenced from: create_extra_casing:blue_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/blue_encased_shaft.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:blue_encased_cogwheel#inventory' referenced from: create_extra_casing:blue_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/blue_encased_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:blue_encased_large_cogwheel#inventory' referenced from: create_extra_casing:blue_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/blue_encased_large_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:brown_encased_shaft#inventory' referenced from: create_extra_casing:brown_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/brown_encased_shaft.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:brown_encased_cogwheel#inventory' referenced from: create_extra_casing:brown_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/brown_encased_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:brown_encased_large_cogwheel#inventory' referenced from: create_extra_casing:brown_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/brown_encased_large_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:orange_encased_shaft#inventory' referenced from: create_extra_casing:orange_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/orange_encased_shaft.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:orange_encased_cogwheel#inventory' referenced from: create_extra_casing:orange_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/orange_encased_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:orange_encased_large_cogwheel#inventory' referenced from: create_extra_casing:orange_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/orange_encased_large_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:yellow_encased_shaft#inventory' referenced from: create_extra_casing:yellow_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/yellow_encased_shaft.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:yellow_encased_cogwheel#inventory' referenced from: create_extra_casing:yellow_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/yellow_encased_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:yellow_encased_large_cogwheel#inventory' referenced from: create_extra_casing:yellow_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/yellow_encased_large_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:pink_encased_shaft#inventory' referenced from: create_extra_casing:pink_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/pink_encased_shaft.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:pink_encased_cogwheel#inventory' referenced from: create_extra_casing:pink_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/pink_encased_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:pink_encased_large_cogwheel#inventory' referenced from: create_extra_casing:pink_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/pink_encased_large_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:green_encased_shaft#inventory' referenced from: create_extra_casing:green_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/green_encased_shaft.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:green_encased_cogwheel#inventory' referenced from: create_extra_casing:green_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/green_encased_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:green_encased_large_cogwheel#inventory' referenced from: create_extra_casing:green_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/green_encased_large_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:lime_encased_shaft#inventory' referenced from: create_extra_casing:lime_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/lime_encased_shaft.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:lime_encased_cogwheel#inventory' referenced from: create_extra_casing:lime_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/lime_encased_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:lime_encased_large_cogwheel#inventory' referenced from: create_extra_casing:lime_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/lime_encased_large_cogwheel.json
+[02Feb2025 19:57:02.569] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:cyan_encased_shaft#inventory' referenced from: create_extra_casing:cyan_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/cyan_encased_shaft.json
+[02Feb2025 19:57:02.570] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:cyan_encased_cogwheel#inventory' referenced from: create_extra_casing:cyan_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/cyan_encased_cogwheel.json
+[02Feb2025 19:57:02.570] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:cyan_encased_large_cogwheel#inventory' referenced from: create_extra_casing:cyan_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/cyan_encased_large_cogwheel.json
+[02Feb2025 19:57:02.570] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:magenta_encased_shaft#inventory' referenced from: create_extra_casing:magenta_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/magenta_encased_shaft.json
+[02Feb2025 19:57:02.570] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:magenta_encased_cogwheel#inventory' referenced from: create_extra_casing:magenta_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/magenta_encased_cogwheel.json
+[02Feb2025 19:57:02.570] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:magenta_encased_large_cogwheel#inventory' referenced from: create_extra_casing:magenta_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/magenta_encased_large_cogwheel.json
+[02Feb2025 19:57:02.570] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:purple_encased_shaft#inventory' referenced from: create_extra_casing:purple_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/purple_encased_shaft.json
+[02Feb2025 19:57:02.570] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:purple_encased_cogwheel#inventory' referenced from: create_extra_casing:purple_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/purple_encased_cogwheel.json
+[02Feb2025 19:57:02.570] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:purple_encased_large_cogwheel#inventory' referenced from: create_extra_casing:purple_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/purple_encased_large_cogwheel.json
+[02Feb2025 19:57:02.608] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[02Feb2025 19:57:02.608] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[02Feb2025 19:57:02.962] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
+[02Feb2025 19:57:03.182] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
+[02Feb2025 19:57:04.313] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[02Feb2025 19:57:04.313] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[02Feb2025 19:57:04.338] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[02Feb2025 19:57:04.339] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[02Feb2025 19:57:04.417] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[02Feb2025 19:57:04.427] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[02Feb2025 19:57:04.429] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[02Feb2025 19:57:04.429] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[02Feb2025 19:57:04.430] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[02Feb2025 19:57:04.432] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[02Feb2025 19:57:04.433] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[02Feb2025 19:57:04.434] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[02Feb2025 19:57:04.434] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[02Feb2025 19:57:04.504] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[02Feb2025 19:57:04.534] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[02Feb2025 19:57:04.535] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[02Feb2025 19:57:04.535] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[02Feb2025 19:57:04.546] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 51 train hat configurations.
+[02Feb2025 19:57:04.546] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[02Feb2025 19:57:07.154] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[02Feb2025 19:57:13.628] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
+[02Feb2025 19:57:13.678] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2248 advancements
+[02Feb2025 19:57:18.130] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[02Feb2025 19:57:18.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[02Feb2025 19:57:18.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World\serverconfig\jei-server.toml is not correct. Correcting
+[02Feb2025 19:57:18.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[02Feb2025 19:57:18.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[02Feb2025 19:57:18.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[02Feb2025 19:57:18.165] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World\serverconfig\forge-server.toml is not correct. Correcting
+[02Feb2025 19:57:18.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[02Feb2025 19:57:18.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[02Feb2025 19:57:18.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[02Feb2025 19:57:18.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[02Feb2025 19:57:18.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[02Feb2025 19:57:18.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[02Feb2025 19:57:18.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[02Feb2025 19:57:18.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World\serverconfig\create-server.toml is not correct. Correcting
+[02Feb2025 19:57:18.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infrastructure was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infrastructure.tickrateSyncTimer was corrected from null to its default, 20. 
+[02Feb2025 19:57:18.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.bulkPressing was corrected from null to its default, false. 
+[02Feb2025 19:57:18.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.bulkCutting was corrected from null to its default, false. 
+[02Feb2025 19:57:18.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowBrewingInMixer was corrected from null to its default, true. 
+[02Feb2025 19:57:18.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowShapelessInMixer was corrected from null to its default, true. 
+[02Feb2025 19:57:18.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowShapedSquareInPress was corrected from null to its default, true. 
+[02Feb2025 19:57:18.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowRegularCraftingInCrafter was corrected from null to its default, true. 
+[02Feb2025 19:57:18.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.maxFireworkIngredientsInCrafter was corrected from null to its default, 9. 
+[02Feb2025 19:57:18.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowStonecuttingOnSaw was corrected from null to its default, true. 
+[02Feb2025 19:57:18.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowWoodcuttingOnSaw was corrected from null to its default, true. 
+[02Feb2025 19:57:18.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowCastingBySpout was corrected from null to its default, true. 
+[02Feb2025 19:57:18.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.displayLogStrippingRecipes was corrected from null to its default, true. 
+[02Feb2025 19:57:18.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.lightSourceCountForRefinedRadiance was corrected from null to its default, 10. 
+[02Feb2025 19:57:18.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.enableRefinedRadianceRecipe was corrected from null to its default, true. 
+[02Feb2025 19:57:18.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.enableShadowSteelRecipe was corrected from null to its default, true. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.disableStress was corrected from null to its default, false. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.maxBeltLength was corrected from null to its default, 20. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.crushingDamage was corrected from null to its default, 4. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.maxRotationSpeed was corrected from null to its default, 256. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.ignoreDeployerAttacks was corrected from null to its default, CREEPERS. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.kineticValidationFrequency was corrected from null to its default, 60. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.crankHungerMultiplier was corrected from null to its default, 0.009999999776482582. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.minimumWindmillSails was corrected from null to its default, 8. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.windmillSailsPerRPM was corrected from null to its default, 8. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.maxEjectorDistance was corrected from null to its default, 32. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.ejectorScanInterval was corrected from null to its default, 120. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanPushDistance was corrected from null to its default, 20. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanPullDistance was corrected from null to its default, 20. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanBlockCheckRate was corrected from null to its default, 30. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanRotationArgmax was corrected from null to its default, 256. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanProcessingTime was corrected from null to its default, 150. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxBlocksMoved was corrected from null to its default, 2048. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxDataSize was corrected from null to its default, 2000000. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxChassisRange was corrected from null to its default, 16. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxPistonPoles was corrected from null to its default, 64. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxRopeLength was corrected from null to its default, 256. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxCartCouplingLength was corrected from null to its default, 32. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.rollerFillDepth was corrected from null to its default, 12. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.survivalContraptionPickup was corrected from null to its default, true. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.movableSpawners was corrected from null to its default, NO_PICKUP. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.amethystMovement was corrected from null to its default, NO_PICKUP. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.movableObsidian was corrected from null to its default, UNMOVABLE. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.movableReinforcedDeepslate was corrected from null to its default, UNMOVABLE. 
+[02Feb2025 19:57:18.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.moveItemsToStorage was corrected from null to its default, true. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.harvestPartiallyGrown was corrected from null to its default, false. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.harvesterReplants was corrected from null to its default, true. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.minecartContraptionInContainers was corrected from null to its default, false. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.stabiliseStableContraptions was corrected from null to its default, false. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.mediumSpeed was corrected from null to its default, 30.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.fastSpeed was corrected from null to its default, 100.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.mediumStressImpact was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.highStressImpact was corrected from null to its default, 8.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.mediumCapacity was corrected from null to its default, 256.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stats.highCapacity was corrected from null to its default, 1024.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2 was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.deployer was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.millstone was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.cuckoo_clock was corrected from null to its default, 1.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.speedometer was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.copper_backtank was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_saw was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.flywheel was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.adjustable_chain_gearshift was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_pump was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.crushing_wheel was corrected from null to its default, 8.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_mixer was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.gantry_shaft was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_arm was corrected from null to its default, 2.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_shaft was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_press was corrected from null to its default, 8.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.large_cogwheel was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_drill was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_large_cogwheel was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.stressometer was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.shaft was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.gearshift was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.sequenced_gearshift was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.weighted_ejector was corrected from null to its default, 2.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_cogwheel was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.gearbox was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.elevator_pulley was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_crafter was corrected from null to its default, 2.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.display_board was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_piston was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_bearing was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.clockwork_bearing was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.encased_chain_drive was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.clutch was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.encased_fan was corrected from null to its default, 2.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.rope_pulley was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.rotation_speed_controller was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.netherite_backtank was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mysterious_cuckoo_clock was corrected from null to its default, 1.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_large_cogwheel was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_shaft was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.sticky_mechanical_piston was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.turntable was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.cogwheel was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.belt was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_cogwheel was corrected from null to its default, 0.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.hose_pulley was corrected from null to its default, 4.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.copper_valve_handle was corrected from null to its default, 8.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.hand_crank was corrected from null to its default, 8.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.steam_engine was corrected from null to its default, 1024.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.creative_motor was corrected from null to its default, 16384.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.large_water_wheel was corrected from null to its default, 128.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.water_wheel was corrected from null to its default, 32.0. 
+[02Feb2025 19:57:18.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.windmill_bearing was corrected from null to its default, 512.0. 
+[02Feb2025 19:57:18.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.fluidTankCapacity was corrected from null to its default, 8. 
+[02Feb2025 19:57:18.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.fluidTankMaxHeight was corrected from null to its default, 32. 
+[02Feb2025 19:57:18.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.mechanicalPumpRange was corrected from null to its default, 16. 
+[02Feb2025 19:57:18.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.hosePulleyRange was corrected from null to its default, 128. 
+[02Feb2025 19:57:18.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.hosePulleyBlockThreshold was corrected from null to its default, 10000. 
+[02Feb2025 19:57:18.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.fillInfinite was corrected from null to its default, false. 
+[02Feb2025 19:57:18.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.bottomlessFluidMode was corrected from null to its default, ALLOW_BY_TAG. 
+[02Feb2025 19:57:18.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.fluidFillPlaceFluidSourceBlocks was corrected from null to its default, true. 
+[02Feb2025 19:57:18.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.pipesPlaceFluidSourceBlocks was corrected from null to its default, true. 
+[02Feb2025 19:57:18.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.defaultExtractionTimer was corrected from null to its default, 8. 
+[02Feb2025 19:57:18.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.psiTimeout was corrected from null to its default, 60. 
+[02Feb2025 19:57:18.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.mechanicalArmRange was corrected from null to its default, 5. 
+[02Feb2025 19:57:18.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.linkRange was corrected from null to its default, 256. 
+[02Feb2025 19:57:18.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.displayLinkRange was corrected from null to its default, 64. 
+[02Feb2025 19:57:18.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.vaultCapacity was corrected from null to its default, 20. 
+[02Feb2025 19:57:18.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.brassTunnelTimer was corrected from null to its default, 10. 
+[02Feb2025 19:57:18.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.seatHostileMobs was corrected from null to its default, true. 
+[02Feb2025 19:57:18.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.creativePrintIncludesAir was corrected from null to its default, false. 
+[02Feb2025 19:57:18.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.maxSchematics was corrected from null to its default, 10. 
+[02Feb2025 19:57:18.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.maxTotalSchematicSize was corrected from null to its default, 256. 
+[02Feb2025 19:57:18.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.maxSchematicPacketSize was corrected from null to its default, 1024. 
+[02Feb2025 19:57:18.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicIdleTimeout was corrected from null to its default, 600. 
+[02Feb2025 19:57:18.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicannon was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicannon.schematicannonDelay was corrected from null to its default, 10. 
+[02Feb2025 19:57:18.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicannon.schematicannonShotsPerGunpowder was corrected from null to its default, 400. 
+[02Feb2025 19:57:18.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.maxSymmetryWandRange was corrected from null to its default, 50. 
+[02Feb2025 19:57:18.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.placementAssistRange was corrected from null to its default, 12. 
+[02Feb2025 19:57:18.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.toolboxRange was corrected from null to its default, 10. 
+[02Feb2025 19:57:18.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.airInBacktank was corrected from null to its default, 900. 
+[02Feb2025 19:57:18.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.enchantedBacktankCapacity was corrected from null to its default, 300. 
+[02Feb2025 19:57:18.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.maxExtendoGripActions was corrected from null to its default, 1000. 
+[02Feb2025 19:57:18.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key equipment.maxPotatoCannonShots was corrected from null to its default, 200. 
+[02Feb2025 19:57:18.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainsCauseDamage was corrected from null to its default, true. 
+[02Feb2025 19:57:18.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.maxTrackPlacementLength was corrected from null to its default, 32. 
+[02Feb2025 19:57:18.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.maxAssemblyLength was corrected from null to its default, 128. 
+[02Feb2025 19:57:18.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.maxBogeyCount was corrected from null to its default, 20. 
+[02Feb2025 19:57:18.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.manualTrainSpeedModifier was corrected from null to its default, 0.75. 
+[02Feb2025 19:57:18.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats.trainTopSpeed was corrected from null to its default, 28.0. 
+[02Feb2025 19:57:18.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats.trainTurningTopSpeed was corrected from null to its default, 14.0. 
+[02Feb2025 19:57:18.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats.trainAcceleration was corrected from null to its default, 3.0. 
+[02Feb2025 19:57:18.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[02Feb2025 19:57:18.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats.poweredTrainTopSpeed was corrected from null to its default, 40.0. 
+[02Feb2025 19:57:18.181] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats.poweredTrainTurningTopSpeed was corrected from null to its default, 20.0. 
+[02Feb2025 19:57:18.181] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats.poweredTrainAcceleration was corrected from null to its default, 3.0. 
+[02Feb2025 19:57:20.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[02Feb2025 19:57:20.833] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Feb2025 19:57:20.904] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Feb2025 19:57:21.380] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[02Feb2025 19:57:21.870] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[02Feb2025 19:57:22.375] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[02Feb2025 19:57:22.870] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[02Feb2025 19:57:23.374] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[02Feb2025 19:57:23.882] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[02Feb2025 19:57:24.369] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[02Feb2025 19:57:24.870] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[02Feb2025 19:57:25.376] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[02Feb2025 19:57:25.879] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
+[02Feb2025 19:57:26.374] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[02Feb2025 19:57:26.882] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[02Feb2025 19:57:27.373] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
+[02Feb2025 19:57:27.883] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
+[02Feb2025 19:57:28.375] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[02Feb2025 19:57:28.875] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[02Feb2025 19:57:29.369] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[02Feb2025 19:57:29.870] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
+[02Feb2025 19:57:30.387] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[02Feb2025 19:57:30.872] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[02Feb2025 19:57:31.378] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[02Feb2025 19:57:31.808] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11441 ms
+[02Feb2025 19:57:31.809] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[02Feb2025 19:57:31.877] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[02Feb2025 19:57:31.878] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[02Feb2025 19:57:31.941] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[02Feb2025 19:57:32.612] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[02Feb2025 19:57:32.637] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:e9f43675] logged in with entity id 166 at (-3.5, 72.0, -58.5)
+[02Feb2025 19:57:32.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[02Feb2025 19:57:32.718] [Render thread/INFO] [BatchExecutor/]: Started 6 worker threads
+[02Feb2025 19:57:32.735] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[02Feb2025 19:57:32.735] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[02Feb2025 19:57:32.900] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[02Feb2025 19:57:32.911] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[02Feb2025 19:57:32.911] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[02Feb2025 19:57:32.912] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[02Feb2025 19:57:32.917] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[02Feb2025 19:57:32.920] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 3.128 ms
+[02Feb2025 19:57:32.920] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[02Feb2025 19:57:32.922] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 1.401 ms
+[02Feb2025 19:57:32.923] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[02Feb2025 19:57:32.949] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. Operator Utilities
+[02Feb2025 19:57:32.976] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 52.99 milliseconds
+[02Feb2025 19:57:32.976] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 53.53 ms
+[02Feb2025 19:57:32.976] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
+[02Feb2025 19:57:32.977] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 303.0 μs
+[02Feb2025 19:57:32.977] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
+[02Feb2025 19:57:32.978] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 774.6 μs
+[02Feb2025 19:57:32.990] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[02Feb2025 19:57:33.034] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 32.61 milliseconds
+[02Feb2025 19:57:33.039] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 48.97 ms
+[02Feb2025 19:57:33.040] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[02Feb2025 19:57:33.043] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 3.126 ms
+[02Feb2025 19:57:33.044] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[02Feb2025 19:57:33.046] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 1.971 ms
+[02Feb2025 19:57:33.047] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[02Feb2025 19:57:33.058] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 11.06 ms
+[02Feb2025 19:57:33.059] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[02Feb2025 19:57:33.060] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 407.8 μs
+[02Feb2025 19:57:33.060] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[02Feb2025 19:57:33.241] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 179.7 milliseconds
+[02Feb2025 19:57:33.363] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 122.4 milliseconds
+[02Feb2025 19:57:33.414] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal took 51.67 milliseconds
+[02Feb2025 19:57:33.415] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 354.7 ms
+[02Feb2025 19:57:33.423] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[02Feb2025 19:57:33.425] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 2.507 ms
+[02Feb2025 19:57:33.431] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[02Feb2025 19:57:33.436] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[02Feb2025 19:57:33.450] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 14.27 ms
+[02Feb2025 19:57:33.453] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[02Feb2025 19:57:33.455] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[02Feb2025 19:57:33.455] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[02Feb2025 19:57:33.487] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 31.42 ms
+[02Feb2025 19:57:33.487] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[02Feb2025 19:57:33.517] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 2170 ingredients
+[02Feb2025 19:57:33.682] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 2170 ingredients
+[02Feb2025 19:57:33.682] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 194.5 ms
+[02Feb2025 19:57:33.736] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 282.7 milliseconds
+[02Feb2025 19:57:33.736] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 283.3 ms
+[02Feb2025 19:57:33.737] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 305.7 ms
+[02Feb2025 19:57:33.737] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[02Feb2025 19:57:33.738] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 383.9 μs
+[02Feb2025 19:57:33.738] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 826.7 ms
+[02Feb2025 19:57:34.057] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[02Feb2025 19:57:38.152] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 7 advancements
+[02Feb2025 19:57:40.574] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 9 advancements
+[02Feb2025 19:58:21.810] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[02Feb2025 19:58:21.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[02Feb2025 19:58:21.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[02Feb2025 19:58:21.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[02Feb2025 19:58:23.059] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[02Feb2025 19:58:23.062] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[02Feb2025 19:58:23.062] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[02Feb2025 19:58:23.062] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[02Feb2025 19:58:23.062] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[02Feb2025 19:58:23.062] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[02Feb2025 19:58:23.063] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 1.027 ms
+[02Feb2025 19:58:23.116] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[02Feb2025 19:58:23.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[02Feb2025 19:58:23.124] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[02Feb2025 19:58:23.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[02Feb2025 19:58:23.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[02Feb2025 19:58:23.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[02Feb2025 19:58:23.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[02Feb2025 19:58:27.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[02Feb2025 19:58:27.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[02Feb2025 19:58:27.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[02Feb2025 19:58:27.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02Feb2025 19:58:27.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02Feb2025 19:58:27.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
