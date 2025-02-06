@@ -1,8 +1,8 @@
 package com.reggarf.mods.create_extra_casing.ponder;
 
 
-import com.reggarf.mods.create_extra_casing.custom_casing.CECEncasedCogwheelBlock;
-import com.reggarf.mods.create_extra_casing.custom_casing.CECEncasedShaftBlock;
+import com.reggarf.mods.create_extra_casing.block.CECEncasedCogwheelBlock;
+import com.reggarf.mods.create_extra_casing.block.CECEncasedShaftBlock;
 import com.reggarf.mods.create_extra_casing.registry.CECBlocks;
 import com.simibubi.create.foundation.ponder.*;
 import com.simibubi.create.foundation.ponder.element.InputWindowElement;

@@ -1,14 +1,15 @@
 package com.reggarf.mods.create_extra_casing.registry;
 
 import com.reggarf.mods.create_extra_casing.CEC;
-import com.reggarf.mods.create_extra_casing.custom_casing.CECEncasedCogwheelBlock;
-import com.reggarf.mods.create_extra_casing.custom_casing.CECEncasedPipeBlock;
-import com.reggarf.mods.create_extra_casing.custom_casing.CECEncasedShaftBlock;
+import com.reggarf.mods.create_extra_casing.block.CECEncasedCogwheelBlock;
+import com.reggarf.mods.create_extra_casing.block.CECEncasedPipeBlock;
+import com.reggarf.mods.create_extra_casing.block.CECEncasedShaftBlock;
 import com.simibubi.create.AllBlocks;
 import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import com.simibubi.create.content.decoration.encasing.EncasedCTBehaviour;
 import com.simibubi.create.content.decoration.encasing.EncasingRegistry;
 import com.simibubi.create.content.fluids.PipeAttachmentModel;
+import com.simibubi.create.content.kinetics.belt.BeltBlockEntity;
 import com.simibubi.create.content.kinetics.simpleRelays.encased.EncasedCogCTBehaviour;
 import com.simibubi.create.foundation.data.BlockStateGen;
 import com.simibubi.create.foundation.data.BuilderTransformers;
@@ -33,6 +34,8 @@ public class CECBlocks {
     }
 
     //   Red Casing
+    public static BeltBlockEntity.CasingType RED_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> RED_CASING = REGISTRATE
             .block("red_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_RED))
@@ -86,9 +89,9 @@ public class CECBlocks {
             .transform(EncasingRegistry.addVariantTo(AllBlocks.FLUID_PIPE))
             .register();
 
-
-
     //   White Casing
+    public static BeltBlockEntity.CasingType WHITE_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> WHITE_CASING = REGISTRATE
             .block("white_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.SNOW))
@@ -138,6 +141,8 @@ public class CECBlocks {
             .register();
 
     //   Black Casing
+    public static BeltBlockEntity.CasingType BLACK_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> BLACK_CASING = REGISTRATE
             .block("black_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_BLACK))
@@ -187,6 +192,8 @@ public class CECBlocks {
             .register();
 
     //   Gray Casing
+    public static BeltBlockEntity.CasingType GRAY_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> GRAY_CASING = REGISTRATE
             .block("gray_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_GRAY))
@@ -237,6 +244,9 @@ public class CECBlocks {
 
 
     //   LightGray Casing
+
+    public static BeltBlockEntity.CasingType LIGHT_GRAY_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> LIGHT_GRAY_CASING = REGISTRATE
             .block("light_gray_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_LIGHT_GRAY))
@@ -286,6 +296,8 @@ public class CECBlocks {
             .register();
 
     //   LightBlue Casing
+    public static BeltBlockEntity.CasingType LIGHT_BLUE_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> LIGHT_BLUE_CASING = REGISTRATE
             .block("light_blue_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_LIGHT_BLUE))
@@ -335,6 +347,9 @@ public class CECBlocks {
             .register();
     
     //   Blue Casing
+
+    public static BeltBlockEntity.CasingType BLUE_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> BLUE_CASING = REGISTRATE
             .block("blue_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_BLUE))
@@ -384,6 +399,8 @@ public class CECBlocks {
             .register();
 
     //   Brown Casing
+    public static BeltBlockEntity.CasingType BROWN_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> BROWN_CASING = REGISTRATE
             .block("brown_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_BROWN))
@@ -433,6 +450,8 @@ public class CECBlocks {
             .register();
 
     //   Orange Casing
+    public static BeltBlockEntity.CasingType ORANGE_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> ORANGE_CASING = REGISTRATE
             .block("orange_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_ORANGE))
@@ -485,6 +504,8 @@ public class CECBlocks {
 
 
     //   Yellow Casing
+    public static BeltBlockEntity.CasingType YELLOW_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> YELLOW_CASING = REGISTRATE
             .block("yellow_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_YELLOW))
@@ -534,6 +555,8 @@ public class CECBlocks {
             .register();
 
     //   Pink Casing
+    public static BeltBlockEntity.CasingType PINK_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> PINK_CASING = REGISTRATE
             .block("pink_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_PINK))
@@ -583,6 +606,8 @@ public class CECBlocks {
             .register();
 
     //   Green Casing
+    public static BeltBlockEntity.CasingType GREEN_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> GREEN_CASING = REGISTRATE
             .block("green_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_GREEN))
@@ -632,6 +657,8 @@ public class CECBlocks {
             .register();
 
     //   Lime Casing
+    public static BeltBlockEntity.CasingType LIME_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> LIME_CASING = REGISTRATE
             .block("lime_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_LIGHT_GREEN))
@@ -681,6 +708,8 @@ public class CECBlocks {
             .register();
 
     //   Cyan Casing
+    public static BeltBlockEntity.CasingType CYAN_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> CYAN_CASING = REGISTRATE
             .block("cyan_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_CYAN))
@@ -730,6 +759,8 @@ public class CECBlocks {
             .register();
 
     //    Magenta Casing
+    public static BeltBlockEntity.CasingType MAGENTA_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> MAGENTA_CASING = REGISTRATE
             .block("magenta_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_MAGENTA))
@@ -779,6 +810,8 @@ public class CECBlocks {
             .register();
 
     //   Purple Casing
+    public static BeltBlockEntity.CasingType PURPLE_BELT_CASING;
+
     public static final BlockEntry<CasingBlock> PURPLE_CASING = REGISTRATE
             .block("purple_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_PURPLE))
