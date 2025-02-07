@@ -399,7 +399,7 @@ public class CECBlocks {
             .register();
 
     //   Brown Casing
-    public static BeltBlockEntity.CasingType BROWN_BELT_CASING;
+    //public static BeltBlockEntity.CasingType BROWN_BELT_CASING;
 
     public static final BlockEntry<CasingBlock> BROWN_CASING = REGISTRATE
             .block("brown_casing", CasingBlock::new)
@@ -504,7 +504,7 @@ public class CECBlocks {
 
 
     //   Yellow Casing
-    public static BeltBlockEntity.CasingType YELLOW_BELT_CASING;
+    //public static BeltBlockEntity.CasingType YELLOW_BELT_CASING;
 
     public static final BlockEntry<CasingBlock> YELLOW_CASING = REGISTRATE
             .block("yellow_casing", CasingBlock::new)

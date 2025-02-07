@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-02-07 22:03:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna_plateau": "2025-02-07 22:03:33 +0530"
+    },
+    "done": false
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2025-02-07 22:03:39 +0530"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2025-02-07 22:04:04 +0530"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

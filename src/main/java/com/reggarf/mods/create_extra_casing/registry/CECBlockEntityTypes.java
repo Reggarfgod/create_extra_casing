@@ -30,9 +30,9 @@ public class CECBlockEntityTypes {
                     CECBlocks.GREEN_ENCASED_SHAFT,
                     CECBlocks.LIME_ENCASED_SHAFT,
                     CECBlocks.CYAN_ENCASED_SHAFT,
-                    CECBlocks.BROWN_ENCASED_SHAFT,
+                    //CECBlocks.BROWN_ENCASED_SHAFT,
                     CECBlocks.ORANGE_ENCASED_SHAFT,
-                    CECBlocks.YELLOW_ENCASED_SHAFT,
+                    //CECBlocks.YELLOW_ENCASED_SHAFT,
                     CECBlocks.MAGENTA_ENCASED_SHAFT,
                     CECBlocks.PINK_ENCASED_SHAFT,
                     CECBlocks.PURPLE_ENCASED_SHAFT

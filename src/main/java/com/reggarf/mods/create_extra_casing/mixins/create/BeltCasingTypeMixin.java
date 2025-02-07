@@ -32,11 +32,11 @@ public class BeltCasingTypeMixin {
         CECBlocks.WHITE_BELT_CASING = encased$addVariant("white");
         CECBlocks.LIGHT_BLUE_BELT_CASING = encased$addVariant("light_blue");
         CECBlocks.BLUE_BELT_CASING = encased$addVariant("blue");
-        CECBlocks.BROWN_BELT_CASING = encased$addVariant("brown");
+       // CECBlocks.BROWN_BELT_CASING = encased$addVariant("brown");
         CECBlocks.GREEN_BELT_CASING = encased$addVariant("green");
         CECBlocks.PURPLE_BELT_CASING = encased$addVariant("purple");
         CECBlocks.LIME_BELT_CASING = encased$addVariant("lime");
-        CECBlocks.YELLOW_BELT_CASING = encased$addVariant("yellow");
+        //CECBlocks.YELLOW_BELT_CASING = encased$addVariant("yellow");
         CECBlocks.PINK_BELT_CASING = encased$addVariant("pink");
         CECBlocks.ORANGE_BELT_CASING = encased$addVariant("orange");
         CECBlocks.CYAN_BELT_CASING = encased$addVariant("cyan");

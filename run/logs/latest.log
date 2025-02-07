@@ -1,0 +1,219 @@
+[07Feb2025 22:39:00.414] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Anoop Singh\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mixin.config, create_extra_casing.mixins.json]
+[07Feb2025 22:39:00.417] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[07Feb2025 22:39:00.501] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[07Feb2025 22:39:00.556] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[07Feb2025 22:39:00.652] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[07Feb2025 22:39:00.715] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Anoop%20Singh/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[07Feb2025 22:39:00.742] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.36, NVIDIA Corporation
+[07Feb2025 22:39:00.957] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Anoop Singh\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[07Feb2025 22:39:00.959] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Anoop Singh\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[07Feb2025 22:39:00.961] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Anoop Singh\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[07Feb2025 22:39:00.963] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Anoop Singh\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[07Feb2025 22:39:01.050] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[07Feb2025 22:39:02.157] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Feb2025 22:39:02.161] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Anoop Singh\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[07Feb2025 22:39:02.207] [main/WARN] [mixin/]: Reference map 'create_extra_casing.refmap.json' for create_extra_casing.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Feb2025 22:39:02.403] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using D:\Create_Extra_Casing/build/createSrgToMcp/output.srg
+[07Feb2025 22:39:02.404] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using D:\Create_Extra_Casing/build/createSrgToMcp/output.srg
+[07Feb2025 22:39:05.219] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 90 milliseconds
+[07Feb2025 22:39:06.349] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Anoop%20Singh/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[07Feb2025 22:39:06.350] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Anoop%20Singh/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[07Feb2025 22:39:06.361] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07Feb2025 22:39:06.365] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[07Feb2025 22:39:06.428] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[07Feb2025 22:39:06.643] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[07Feb2025 22:39:06.644] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[07Feb2025 22:39:06.647] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
+[07Feb2025 22:39:06.823] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[07Feb2025 22:39:06.826] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 1.748 ms
+[07Feb2025 22:39:08.961] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [create_extra_casing]
+[07Feb2025 22:39:09.190] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[07Feb2025 22:39:09.251] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[07Feb2025 22:39:09.270] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Feb2025 22:39:09.537] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model create_extra_casing:models/block/copper_encased_steel_pipe/block_flat.json
+com.google.gson.JsonParseException: JSON data was null or empty
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:533) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:581) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:74) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/:?]
+	at net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:110) ~[forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:red_encased_shaft#inventory' referenced from: create_extra_casing:red_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/red_encased_shaft.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:red_encased_cogwheel#inventory' referenced from: create_extra_casing:red_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/red_encased_cogwheel.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:red_encased_large_cogwheel#inventory' referenced from: create_extra_casing:red_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/red_encased_large_cogwheel.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:white_encased_shaft#inventory' referenced from: create_extra_casing:white_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/white_encased_shaft.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:white_encased_cogwheel#inventory' referenced from: create_extra_casing:white_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/white_encased_cogwheel.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:white_encased_large_cogwheel#inventory' referenced from: create_extra_casing:white_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/white_encased_large_cogwheel.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:black_encased_shaft#inventory' referenced from: create_extra_casing:black_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/black_encased_shaft.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:black_encased_cogwheel#inventory' referenced from: create_extra_casing:black_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/black_encased_cogwheel.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:black_encased_large_cogwheel#inventory' referenced from: create_extra_casing:black_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/black_encased_large_cogwheel.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:gray_encased_shaft#inventory' referenced from: create_extra_casing:gray_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/gray_encased_shaft.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:gray_encased_cogwheel#inventory' referenced from: create_extra_casing:gray_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/gray_encased_cogwheel.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:gray_encased_large_cogwheel#inventory' referenced from: create_extra_casing:gray_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/gray_encased_large_cogwheel.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:light_gray_encased_shaft#inventory' referenced from: create_extra_casing:light_gray_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/light_gray_encased_shaft.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:light_gray_encased_cogwheel#inventory' referenced from: create_extra_casing:light_gray_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/light_gray_encased_cogwheel.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:light_gray_encased_large_cogwheel#inventory' referenced from: create_extra_casing:light_gray_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/light_gray_encased_large_cogwheel.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:light_blue_encased_shaft#inventory' referenced from: create_extra_casing:light_blue_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/light_blue_encased_shaft.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:light_blue_encased_cogwheel#inventory' referenced from: create_extra_casing:light_blue_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/light_blue_encased_cogwheel.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:light_blue_encased_large_cogwheel#inventory' referenced from: create_extra_casing:light_blue_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/light_blue_encased_large_cogwheel.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:blue_encased_shaft#inventory' referenced from: create_extra_casing:blue_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/blue_encased_shaft.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:blue_encased_cogwheel#inventory' referenced from: create_extra_casing:blue_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/blue_encased_cogwheel.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:blue_encased_large_cogwheel#inventory' referenced from: create_extra_casing:blue_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/blue_encased_large_cogwheel.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:brown_encased_shaft#inventory' referenced from: create_extra_casing:brown_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/brown_encased_shaft.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:brown_encased_cogwheel#inventory' referenced from: create_extra_casing:brown_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/brown_encased_cogwheel.json
+[07Feb2025 22:39:10.268] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:brown_encased_large_cogwheel#inventory' referenced from: create_extra_casing:brown_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/brown_encased_large_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:orange_encased_shaft#inventory' referenced from: create_extra_casing:orange_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/orange_encased_shaft.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:orange_encased_cogwheel#inventory' referenced from: create_extra_casing:orange_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/orange_encased_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:orange_encased_large_cogwheel#inventory' referenced from: create_extra_casing:orange_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/orange_encased_large_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:yellow_encased_shaft#inventory' referenced from: create_extra_casing:yellow_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/yellow_encased_shaft.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:yellow_encased_cogwheel#inventory' referenced from: create_extra_casing:yellow_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/yellow_encased_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:yellow_encased_large_cogwheel#inventory' referenced from: create_extra_casing:yellow_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/yellow_encased_large_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:pink_encased_shaft#inventory' referenced from: create_extra_casing:pink_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/pink_encased_shaft.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:pink_encased_cogwheel#inventory' referenced from: create_extra_casing:pink_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/pink_encased_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:pink_encased_large_cogwheel#inventory' referenced from: create_extra_casing:pink_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/pink_encased_large_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:green_encased_shaft#inventory' referenced from: create_extra_casing:green_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/green_encased_shaft.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:green_encased_cogwheel#inventory' referenced from: create_extra_casing:green_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/green_encased_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:green_encased_large_cogwheel#inventory' referenced from: create_extra_casing:green_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/green_encased_large_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:lime_encased_shaft#inventory' referenced from: create_extra_casing:lime_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/lime_encased_shaft.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:lime_encased_cogwheel#inventory' referenced from: create_extra_casing:lime_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/lime_encased_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:lime_encased_large_cogwheel#inventory' referenced from: create_extra_casing:lime_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/lime_encased_large_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:cyan_encased_shaft#inventory' referenced from: create_extra_casing:cyan_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/cyan_encased_shaft.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:cyan_encased_cogwheel#inventory' referenced from: create_extra_casing:cyan_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/cyan_encased_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:cyan_encased_large_cogwheel#inventory' referenced from: create_extra_casing:cyan_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/cyan_encased_large_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:magenta_encased_shaft#inventory' referenced from: create_extra_casing:magenta_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/magenta_encased_shaft.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:magenta_encased_cogwheel#inventory' referenced from: create_extra_casing:magenta_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/magenta_encased_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:magenta_encased_large_cogwheel#inventory' referenced from: create_extra_casing:magenta_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/magenta_encased_large_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:purple_encased_shaft#inventory' referenced from: create_extra_casing:purple_encased_shaft#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/purple_encased_shaft.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:purple_encased_cogwheel#inventory' referenced from: create_extra_casing:purple_encased_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/purple_encased_cogwheel.json
+[07Feb2025 22:39:10.269] [Worker-Main-10/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'create_extra_casing:purple_encased_large_cogwheel#inventory' referenced from: create_extra_casing:purple_encased_large_cogwheel#inventory: java.io.FileNotFoundException: create_extra_casing:models/item/purple_encased_large_cogwheel.json
+[07Feb2025 22:39:10.585] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[07Feb2025 22:39:10.585] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[07Feb2025 22:39:11.068] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
+[07Feb2025 22:39:11.562] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
+[07Feb2025 22:39:12.259] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[07Feb2025 22:39:12.259] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[07Feb2025 22:39:12.282] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[07Feb2025 22:39:12.283] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[07Feb2025 22:39:12.354] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[07Feb2025 22:39:12.362] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[07Feb2025 22:39:12.364] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[07Feb2025 22:39:12.364] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[07Feb2025 22:39:12.364] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[07Feb2025 22:39:12.366] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[07Feb2025 22:39:12.367] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[07Feb2025 22:39:12.367] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[07Feb2025 22:39:12.367] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[07Feb2025 22:39:12.433] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[07Feb2025 22:39:12.467] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[07Feb2025 22:39:12.468] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[07Feb2025 22:39:12.469] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[07Feb2025 22:39:12.478] [Render thread/INFO] [com.simibubi.create.Create/]: Loaded 51 train hat configurations.
+[07Feb2025 22:39:12.478] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[07Feb2025 22:39:13.281] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[07Feb2025 22:39:25.091] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[07Feb2025 22:39:26.820] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
+[07Feb2025 22:39:26.885] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2248 advancements
+[07Feb2025 22:39:27.553] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[07Feb2025 22:39:27.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Feb2025 22:39:28.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Feb2025 22:39:30.284] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Feb2025 22:39:30.284] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Feb2025 22:39:30.284] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Feb2025 22:39:30.284] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Feb2025 22:39:30.481] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[07Feb2025 22:39:30.782] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07Feb2025 22:39:30.787] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2313 ms
+[07Feb2025 22:39:30.874] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[07Feb2025 22:39:30.876] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[07Feb2025 22:39:30.942] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[07Feb2025 22:39:31.013] [Server thread/INFO] [BatchExecutor/]: Started 6 worker threads
+[07Feb2025 22:39:31.273] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[07Feb2025 22:39:31.305] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:1a6b2409] logged in with entity id 223 at (-1.3352240774673647, 100.0, 0.4448639073309188)
+[07Feb2025 22:39:31.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[07Feb2025 22:39:31.575] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[07Feb2025 22:39:31.576] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[07Feb2025 22:39:31.759] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[07Feb2025 22:39:31.772] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[07Feb2025 22:39:31.772] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[07Feb2025 22:39:31.773] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[07Feb2025 22:39:31.779] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[07Feb2025 22:39:31.782] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 2.475 ms
+[07Feb2025 22:39:31.782] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[07Feb2025 22:39:31.784] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 1.587 ms
+[07Feb2025 22:39:31.785] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[07Feb2025 22:39:31.819] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. Operator Utilities
+[07Feb2025 22:39:31.841] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 55.76 milliseconds
+[07Feb2025 22:39:31.842] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 56.27 ms
+[07Feb2025 22:39:31.842] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients...
+[07Feb2025 22:39:31.842] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering extra ingredients took 316.6 μs
+[07Feb2025 22:39:31.843] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases...
+[07Feb2025 22:39:31.844] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering search ingredient aliases took 790.5 μs
+[07Feb2025 22:39:31.853] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[07Feb2025 22:39:31.886] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: create:jei_plugin took 22.38 milliseconds
+[07Feb2025 22:39:31.891] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 37.28 ms
+[07Feb2025 22:39:31.891] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[07Feb2025 22:39:31.894] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 2.267 ms
+[07Feb2025 22:39:31.895] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[07Feb2025 22:39:31.896] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 1.645 ms
+[07Feb2025 22:39:31.897] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[07Feb2025 22:39:31.906] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 8.815 ms
+[07Feb2025 22:39:31.907] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[07Feb2025 22:39:31.907] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 361.7 μs
+[07Feb2025 22:39:31.908] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[07Feb2025 22:39:32.075] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 166.4 milliseconds
+[07Feb2025 22:39:32.152] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: create:jei_plugin took 76.87 milliseconds
+[07Feb2025 22:39:32.200] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal took 48.15 milliseconds
+[07Feb2025 22:39:32.200] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 292.2 ms
+[07Feb2025 22:39:32.208] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[07Feb2025 22:39:32.210] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 2.098 ms
+[07Feb2025 22:39:32.214] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[07Feb2025 22:39:32.218] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[07Feb2025 22:39:32.225] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 7.312 ms
+[07Feb2025 22:39:32.227] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[07Feb2025 22:39:32.229] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[07Feb2025 22:39:32.229] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[07Feb2025 22:39:32.250] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 21.39 ms
+[07Feb2025 22:39:32.251] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[07Feb2025 22:39:32.272] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 2170 ingredients
+[07Feb2025 22:39:32.424] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 2170 ingredients
+[07Feb2025 22:39:32.424] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 173.2 ms
+[07Feb2025 22:39:32.475] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 246.8 milliseconds
+[07Feb2025 22:39:32.476] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 247.4 ms
+[07Feb2025 22:39:32.476] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 260.7 ms
+[07Feb2025 22:39:32.476] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[07Feb2025 22:39:32.477] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 302.6 μs
+[07Feb2025 22:39:32.477] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 702.9 ms
+[07Feb2025 22:39:32.555] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 15 advancements
+[07Feb2025 22:39:33.035] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[07Feb2025 22:39:33.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[07Feb2025 22:39:33.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07Feb2025 22:39:33.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[07Feb2025 22:39:59.144] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create_extra_casing:rencased_shaft @ BlockPos{x=-1, y=101, z=4} state Block{create_extra_casing:brown_encased_shaft}[axis=z] invalid for ticking:
+[07Feb2025 22:39:59.170] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create_extra_casing:rencased_shaft @ BlockPos{x=-1, y=101, z=4} state Block{create_extra_casing:brown_encased_shaft}[axis=z] invalid for ticking:
+[07Feb2025 22:40:03.337] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create_extra_casing:rencased_shaft @ BlockPos{x=-2, y=100, z=4} state Block{create_extra_casing:brown_encased_shaft}[axis=z] invalid for ticking:
+[07Feb2025 22:40:03.367] [Render thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity create_extra_casing:rencased_shaft @ BlockPos{x=-2, y=100, z=4} state Block{create_extra_casing:brown_encased_shaft}[axis=z] invalid for ticking:
+[07Feb2025 22:40:27.316] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[07Feb2025 22:40:27.318] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[07Feb2025 22:40:27.318] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[07Feb2025 22:40:27.318] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[07Feb2025 22:40:27.318] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[07Feb2025 22:40:27.318] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[07Feb2025 22:40:27.319] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 991.4 μs
+[07Feb2025 22:40:27.339] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[07Feb2025 22:40:27.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[07Feb2025 22:40:27.343] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[07Feb2025 22:40:27.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07Feb2025 22:40:27.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07Feb2025 22:40:27.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07Feb2025 22:40:27.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[07Feb2025 22:40:29.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07Feb2025 22:40:29.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[07Feb2025 22:40:29.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[07Feb2025 22:40:29.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07Feb2025 22:40:29.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07Feb2025 22:40:29.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
