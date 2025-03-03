@@ -2,21 +2,26 @@ package com.reggarf.mods.create_extra_casing.registry;
 
 
 import com.reggarf.mods.create_extra_casing.CEC;
+import com.simibubi.create.AllCreativeModeTabs;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.RegistryObject;
+
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredRegister;
+
 
 public class CECCreativeTab {
-    public static final DeferredRegister<CreativeModeTab>  TABS =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CEC.MODID);
 
-    public static final RegistryObject<CreativeModeTab> CC_TAB = TABS.register("create_extra_casing_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(CECBlocks.BLUE_CASING.get()))
+    private static final DeferredRegister<CreativeModeTab> TAB_REGISTER =
+            net.neoforged.neoforge.registries.DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CEC.MODID);
+
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MAIN_TAB = TAB_REGISTER.register("tab",
+            () -> CreativeModeTab.builder()
                     .title(Component.translatable("creativetab.create_extra_casing_tab"))
+                    .withTabsBefore(AllCreativeModeTabs.BASE_CREATIVE_TAB.getKey())
+                    .icon(CECBlocks.RED_CASING::asStack)
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(CECBlocks.BLACK_CASING.get());
                         pOutput.accept(CECBlocks.BLUE_CASING.get());
@@ -37,7 +42,11 @@ public class CECCreativeTab {
                     })
                     .build());
 
-    public static void register(IEventBus eventBus) {
-        TABS.register(eventBus);
+
+    public static void register(IEventBus modEventBus) {
+        TAB_REGISTER.register(modEventBus);
+    }
+    public static CreativeModeTab getBaseTab() {
+        return MAIN_TAB.get();
     }
 }

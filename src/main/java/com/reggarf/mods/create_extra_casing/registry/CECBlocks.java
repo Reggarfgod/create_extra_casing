@@ -4,6 +4,7 @@ import com.reggarf.mods.create_extra_casing.CEC;
 import com.reggarf.mods.create_extra_casing.block.CECEncasedCogwheelBlock;
 import com.reggarf.mods.create_extra_casing.block.CECEncasedPipeBlock;
 import com.reggarf.mods.create_extra_casing.block.CECEncasedShaftBlock;
+import com.reggarf.mods.create_extra_casing.util.BuilderTransformers;
 import com.simibubi.create.AllBlocks;
 import com.simibubi.create.content.decoration.encasing.CasingBlock;
 import com.simibubi.create.content.decoration.encasing.EncasedCTBehaviour;
@@ -12,26 +13,32 @@ import com.simibubi.create.content.fluids.PipeAttachmentModel;
 import com.simibubi.create.content.kinetics.belt.BeltBlockEntity;
 import com.simibubi.create.content.kinetics.simpleRelays.encased.EncasedCogCTBehaviour;
 import com.simibubi.create.foundation.data.BlockStateGen;
-import com.simibubi.create.foundation.data.BuilderTransformers;
+
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.foundation.data.SharedProperties;
-import com.simibubi.create.foundation.utility.Couple;
+
 import com.tterrag.registrate.util.entry.BlockEntry;
+import net.createmod.catnip.data.Couple;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
+import net.neoforged.neoforge.registries.DeferredRegister;
 
+import static com.reggarf.mods.create_extra_casing.CEC.REGISTRATE;
 import static com.simibubi.create.foundation.data.ModelGen.customItemModel;
 import static com.simibubi.create.foundation.data.TagGen.axeOrPickaxe;
 import static com.simibubi.create.foundation.data.TagGen.pickaxeOnly;
 
 public class CECBlocks {
-    private static final CreateRegistrate REGISTRATE = CEC.registrate();
 
-    // - https://github.com/Creators-of-Create/Create/blob/mc1.20.1/dev/src/main/java/com/simibubi/create/AllBlocks.java
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(BuiltInRegistries.BLOCK, CEC.MODID);
 
     static {
-        REGISTRATE.setCreativeTab(CECCreativeTab.CC_TAB);
+        REGISTRATE.setCreativeTab(CECCreativeTab.MAIN_TAB);
     }
+
+
 
     //   Red Casing
     public static BeltBlockEntity.CasingType RED_BELT_CASING;
@@ -39,7 +46,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> RED_CASING = REGISTRATE
             .block("red_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_RED))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.RED_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.RED_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> RED_ENCASED_SHAFT = REGISTRATE
             .block("red_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.RED_CASING::get))
@@ -80,7 +87,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.COLOR_RED))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.RED_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.RED_CASING,
@@ -95,7 +102,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> WHITE_CASING = REGISTRATE
             .block("white_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.SNOW))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.WHITE_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.WHITE_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> WHITE_ENCASED_SHAFT = REGISTRATE
             .block("white_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.WHITE_CASING::get))
@@ -131,7 +138,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.SNOW))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.WHITE_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.WHITE_CASING,
@@ -146,7 +153,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> BLACK_CASING = REGISTRATE
             .block("black_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_BLACK))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.BLACK_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.BLACK_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> BLACK_ENCASED_SHAFT = REGISTRATE
             .block("black_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.BLACK_CASING::get))
@@ -182,7 +189,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.COLOR_BLACK))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.BLACK_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.BLACK_CASING,
@@ -197,7 +204,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> GRAY_CASING = REGISTRATE
             .block("gray_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_GRAY))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.GRAY_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.GRAY_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> GRAY_ENCASED_SHAFT = REGISTRATE
             .block("gray_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.GRAY_CASING::get))
@@ -233,7 +240,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.COLOR_GRAY))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.GRAY_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.GRAY_CASING,
@@ -250,7 +257,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> LIGHT_GRAY_CASING = REGISTRATE
             .block("light_gray_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_LIGHT_GRAY))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.LIGHT_GRAY_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.LIGHT_GRAY_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> LIGHT_GRAY_ENCASED_SHAFT = REGISTRATE
             .block("light_gray_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.LIGHT_GRAY_CASING::get))
@@ -286,7 +293,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.COLOR_LIGHT_GRAY))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.LIGHT_GRAY_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.LIGHT_GRAY_CASING,
@@ -301,7 +308,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> LIGHT_BLUE_CASING = REGISTRATE
             .block("light_blue_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_LIGHT_BLUE))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.LIGHT_BLUE_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.LIGHT_BLUE_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> LIGHT_BLUE_ENCASED_SHAFT = REGISTRATE
             .block("light_blue_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.LIGHT_BLUE_CASING::get))
@@ -337,7 +344,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.COLOR_LIGHT_BLUE))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.LIGHT_BLUE_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.LIGHT_BLUE_CASING,
@@ -353,7 +360,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> BLUE_CASING = REGISTRATE
             .block("blue_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_BLUE))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.BLUE_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.BLUE_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> BLUE_ENCASED_SHAFT = REGISTRATE
             .block("blue_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.BLUE_CASING::get))
@@ -389,7 +396,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.COLOR_BLUE))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.BLUE_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.ORANGE_CASING,
@@ -404,7 +411,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> BROWN_CASING = REGISTRATE
             .block("brown_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_BROWN))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.BROWN_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.BROWN_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> BROWN_ENCASED_SHAFT = REGISTRATE
             .block("brown_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.BROWN_CASING::get))
@@ -440,7 +447,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.COLOR_BROWN))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.BROWN_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.BROWN_CASING,
@@ -455,7 +462,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> ORANGE_CASING = REGISTRATE
             .block("orange_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_ORANGE))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.ORANGE_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.ORANGE_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> ORANGE_ENCASED_SHAFT = REGISTRATE
             .block("orange_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.ORANGE_CASING::get))
@@ -493,7 +500,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.COLOR_ORANGE))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.ORANGE_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.ORANGE_CASING,
@@ -509,7 +516,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> YELLOW_CASING = REGISTRATE
             .block("yellow_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_YELLOW))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.YELLOW_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.YELLOW_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> YELLOW_ENCASED_SHAFT = REGISTRATE
             .block("yellow_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.YELLOW_CASING::get))
@@ -545,7 +552,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.COLOR_YELLOW))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.YELLOW_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.YELLOW_CASING,
@@ -560,7 +567,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> PINK_CASING = REGISTRATE
             .block("pink_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_PINK))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.PINK_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.PINK_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> PINK_ENCASED_SHAFT = REGISTRATE
             .block("pink_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.PINK_CASING::get))
@@ -596,7 +603,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.COLOR_PINK))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.PINK_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.PINK_CASING,
@@ -611,7 +618,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> GREEN_CASING = REGISTRATE
             .block("green_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_GREEN))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.GREEN_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.GREEN_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> GREEN_ENCASED_SHAFT = REGISTRATE
             .block("green_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.GREEN_CASING::get))
@@ -647,7 +654,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.COLOR_GREEN))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.GREEN_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.GREEN_CASING,
@@ -662,7 +669,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> LIME_CASING = REGISTRATE
             .block("lime_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_LIGHT_GREEN))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.LIME_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.LIME_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> LIME_ENCASED_SHAFT = REGISTRATE
             .block("lime_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.LIME_CASING::get))
@@ -698,7 +705,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.COLOR_LIGHT_GREEN))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.LIME_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.LIME_CASING,
@@ -713,7 +720,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> CYAN_CASING = REGISTRATE
             .block("cyan_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_CYAN))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.CYAN_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.CYAN_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> CYAN_ENCASED_SHAFT = REGISTRATE
             .block("cyan_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.CYAN_CASING::get))
@@ -749,7 +756,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.COLOR_CYAN))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.CYAN_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.CYAN_CASING,
@@ -764,7 +771,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> MAGENTA_CASING = REGISTRATE
             .block("magenta_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_MAGENTA))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.MAGENTA_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.MAGENTA_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> MAGENTA_ENCASED_SHAFT = REGISTRATE
             .block("magenta_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.MAGENTA_CASING::get))
@@ -800,7 +807,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.COLOR_MAGENTA))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.MAGENTA_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.MAGENTA_CASING,
@@ -815,7 +822,7 @@ public class CECBlocks {
     public static final BlockEntry<CasingBlock> PURPLE_CASING = REGISTRATE
             .block("purple_casing", CasingBlock::new)
             .properties(p -> p.mapColor(MapColor.COLOR_PURPLE))
-            .transform(BuilderTransformers.casing(() -> CECSpriteShifts.PURPLE_CASING))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.PURPLE_CASING))
             .register();
     public static final BlockEntry<CECEncasedShaftBlock> PURPLE_ENCASED_SHAFT = REGISTRATE
             .block("purple_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.PURPLE_CASING::get))
@@ -851,7 +858,7 @@ public class CECBlocks {
             .properties(p -> p.mapColor(MapColor.COLOR_ORANGE))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
-            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::new))
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
             .blockstate(BlockStateGen.encasedPipe())
             .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.PURPLE_CASING)))
             .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.PURPLE_CASING,

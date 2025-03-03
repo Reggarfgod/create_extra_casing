@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_extra_casing:block/blue_casing"
+    }
+  }
+}
