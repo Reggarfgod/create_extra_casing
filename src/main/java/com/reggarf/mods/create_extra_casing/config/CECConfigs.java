@@ -20,22 +20,10 @@ import java.util.function.Supplier;
 public class CECConfigs {
 
 	private static final Map<ModConfig.Type, ConfigBase> CONFIGS = new EnumMap<>(ModConfig.Type.class);
-
-	//private static CCClient client;
 	private static CECCommon common;
-	//private static CCServer server;
-
-	/*public static CCClient client() {
-		return client;
-	}*/
-
 	public static CECCommon common() {
 		return common;
 	}
-
-	/*public static CCServer server() {
-		return server;
-	}*/
 
 	public static ConfigBase byType(ModConfig.Type type) {
 		return CONFIGS.get(type);
@@ -55,13 +43,11 @@ public class CECConfigs {
 	}
 
 	public static void register(ModLoadingContext context, ModContainer container) {
-		//client = register(CCClient::new, ModConfig.Type.CLIENT);
+	
 		common = register(CECCommon::new, ModConfig.Type.COMMON);
-		//server = register(CCServer::new, ModConfig.Type.SERVER);
-
+	
 		for (Entry<ModConfig.Type, ConfigBase> pair : CONFIGS.entrySet())
 			container.registerConfig(pair.getKey(), pair.getValue().specification);
-
 
 		BlockStressValues.IMPACTS.registerProvider(common().kinetics.stressValues::getImpact);
 		BlockStressValues.CAPACITIES.registerProvider(common().kinetics.stressValues::getCapacity);
