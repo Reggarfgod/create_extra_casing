@@ -14,7 +14,7 @@ public class CECCommon extends ConfigBase {
     }
 
     private static class Comments {
-        static String kinetics = "Modify Create Encased blocks comportements";
+        static String kinetics = "Modify CEC blocks";
 
     }
 }
