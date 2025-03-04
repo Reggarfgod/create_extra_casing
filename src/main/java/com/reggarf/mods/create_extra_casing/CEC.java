@@ -1,6 +1,7 @@
 package com.reggarf.mods.create_extra_casing;
 
 
+import com.reggarf.mods.create_extra_casing.config.CECConfigs;
 import com.reggarf.mods.create_extra_casing.registry.CECBlockEntityTypes;
 import com.reggarf.mods.create_extra_casing.registry.CECBlocks;
 import com.reggarf.mods.create_extra_casing.registry.CECCreativeTab;
@@ -10,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
@@ -32,7 +34,7 @@ public class CEC {
         CECCreativeTab.register(modEventBus);
         CECBlocks.register();
         CECBlockEntityTypes.register();
-
+        CECConfigs.register(ModLoadingContext.get());
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> CECClient.onCtorClient(modEventBus, forgeEventBus));
     }
 

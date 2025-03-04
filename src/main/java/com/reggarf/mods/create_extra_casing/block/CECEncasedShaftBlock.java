@@ -3,16 +3,14 @@ package com.reggarf.mods.create_extra_casing.block;
 
 import com.reggarf.mods.create_extra_casing.registry.CECBlockEntityTypes;
 import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
+import com.simibubi.create.content.kinetics.simpleRelays.encased.EncasedShaftBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 
 import java.util.function.Supplier;
 
 
-/*
-This class allow to use the constructore of EncasedShaftBlock from the create code
- */
-public class CECEncasedShaftBlock extends com.simibubi.create.content.kinetics.simpleRelays.encased.EncasedShaftBlock {
+public class CECEncasedShaftBlock extends EncasedShaftBlock {
 
 	public CECEncasedShaftBlock(Properties properties, Supplier<Block> casing) {
 		super(properties, casing);

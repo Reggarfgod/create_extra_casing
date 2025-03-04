@@ -2,7 +2,9 @@ package com.reggarf.mods.create_extra_casing;
 
 
 import com.reggarf.mods.create_extra_casing.ponder.CECPonderIndex;
+import com.reggarf.mods.create_extra_casing.ponder.CECPonderPlugin;
 import com.reggarf.mods.create_extra_casing.ponder.CECPonderTags;
+import net.createmod.ponder.foundation.PonderIndex;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
@@ -15,7 +17,8 @@ public class CECClient {
     }
 
     public static void clientInit(final FMLClientSetupEvent event) {
-        CECPonderTags.register();
-        CECPonderIndex.register();
+//        CECPonderTags.register();
+//        CECPonderIndex.register();
+        PonderIndex.addPlugin(new CECPonderPlugin());
     }
 }

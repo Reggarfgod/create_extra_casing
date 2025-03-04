@@ -3,16 +3,14 @@ package com.reggarf.mods.create_extra_casing.block;
 
 import com.reggarf.mods.create_extra_casing.registry.CECBlockEntityTypes;
 import com.simibubi.create.content.kinetics.simpleRelays.SimpleKineticBlockEntity;
+import com.simibubi.create.content.kinetics.simpleRelays.encased.EncasedCogwheelBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 
 import java.util.function.Supplier;
 
 
-/*
-This class allow to use the constructor of EncasedCogWheelBlock from the create code
- */
-public class CECEncasedCogwheelBlock extends com.simibubi.create.content.kinetics.simpleRelays.encased.EncasedCogwheelBlock {
+public class CECEncasedCogwheelBlock extends EncasedCogwheelBlock {
 
 	public CECEncasedCogwheelBlock(Properties properties, boolean large, Supplier<Block> casing) {
 		super(properties, large, casing);

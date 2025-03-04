@@ -5,8 +5,9 @@ import com.reggarf.mods.create_extra_casing.registry.CECSpriteShifts;
 import com.simibubi.create.AllPartialModels;
 import com.simibubi.create.content.kinetics.belt.BeltBlockEntity;
 import com.simibubi.create.content.kinetics.belt.BeltModel;
-import com.simibubi.create.foundation.block.render.SpriteShiftEntry;
+
 import com.simibubi.create.foundation.model.BakedQuadHelper;
+import net.createmod.catnip.render.SpriteShiftEntry;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.block.model.BakedQuad;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
@@ -36,6 +37,7 @@ public class BeltModelMixin {
     private void encased$customParticle(ModelData data, CallbackInfoReturnable<TextureAtlasSprite> cir){
         BeltBlockEntity.CasingType type = data.get(CASING_PROPERTY);
         System.out.println(type);
+
         if (type.equals(CECBlocks.LIGHT_GRAY_BELT_CASING)) {
             cir.setReturnValue(CECSpriteShifts.LIGHT_GRAY_BELT_CASING.getOriginal());
         }

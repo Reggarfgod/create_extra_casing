@@ -3,11 +3,12 @@ package com.reggarf.mods.create_extra_casing.registry;
 import com.reggarf.mods.create_extra_casing.CEC;
 import com.simibubi.create.content.fluids.pipes.FluidPipeBlockEntity;
 import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
-import com.simibubi.create.content.kinetics.base.ShaftInstance;
+
 import com.simibubi.create.content.kinetics.base.ShaftRenderer;
+import com.simibubi.create.content.kinetics.base.ShaftVisual;
 import com.simibubi.create.content.kinetics.simpleRelays.SimpleKineticBlockEntity;
-import com.simibubi.create.content.kinetics.simpleRelays.encased.EncasedCogInstance;
 import com.simibubi.create.content.kinetics.simpleRelays.encased.EncasedCogRenderer;
+import com.simibubi.create.content.kinetics.simpleRelays.encased.EncasedCogVisual;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.tterrag.registrate.util.entry.BlockEntityEntry;
 
@@ -19,7 +20,7 @@ public class CECBlockEntityTypes {
 
     public static final BlockEntityEntry<KineticBlockEntity> ENCASED_SHAFT = REGISTRATE
             .blockEntity("rencased_shaft", KineticBlockEntity::new)
-            .instance(() -> ShaftInstance::new, false)
+            .visual(() -> ShaftVisual::new, false)
             .validBlocks(CECBlocks.RED_ENCASED_SHAFT,
                          CECBlocks.WHITE_ENCASED_SHAFT,
                          CECBlocks.BLACK_ENCASED_SHAFT,
@@ -42,7 +43,7 @@ public class CECBlockEntityTypes {
 
     public static final BlockEntityEntry<SimpleKineticBlockEntity> ENCASED_COGWHEEL = REGISTRATE
             .blockEntity("encased_cogwheel", SimpleKineticBlockEntity::new)
-            .instance(() -> EncasedCogInstance::small, false)
+            .visual(() -> EncasedCogVisual::small, false)
             .validBlocks(CECBlocks.RED_ENCASED_COGWHEEL,
                     CECBlocks.WHITE_ENCASED_COGWHEEL,
                     CECBlocks.BLACK_ENCASED_COGWHEEL,
@@ -64,7 +65,7 @@ public class CECBlockEntityTypes {
 
     public static final BlockEntityEntry<SimpleKineticBlockEntity>ENCASED_LARGE_COGWHEEL = REGISTRATE
             .blockEntity("encased_large_cogwheel", SimpleKineticBlockEntity::new)
-            .instance(() -> EncasedCogInstance::large, false)
+            .visual(() -> EncasedCogVisual::large, false)
             .validBlocks(CECBlocks.RED_ENCASED_LARGE_COGWHEEL,
                 CECBlocks.WHITE_ENCASED_LARGE_COGWHEEL,
                 CECBlocks.BLACK_ENCASED_LARGE_COGWHEEL,
