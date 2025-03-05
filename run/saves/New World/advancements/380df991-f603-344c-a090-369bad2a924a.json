@@ -23,12 +23,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2025-03-04 13:44:52 +0530"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/gearbox": {
     "criteria": {
       "has_item": "2025-03-04 13:44:15 +0530"
@@ -38,6 +32,12 @@
   "create:recipes/misc/crafting/kinetics/vertical_gearbox": {
     "criteria": {
       "has_item": "2025-03-04 13:44:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-03-04 13:44:52 +0530"
     },
     "done": true
   },

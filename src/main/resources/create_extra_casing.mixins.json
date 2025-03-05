@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "create_extra_casing.refmap.json",
   "mixins": [
+
     "create.BeltBlockEntityMixin",
     "create.BeltBlockMixin",
     "create.BeltCasingTypeMixin",
