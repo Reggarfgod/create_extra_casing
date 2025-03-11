@@ -67,6 +67,14 @@
 	#Range: > 5
 	maxBeltLength = 20
 	#.
+	#Maximum length in blocks of chain conveyor connections.
+	#Range: > 5
+	maxChainConveyorLength = 32
+	#.
+	#Maximum amount of connections each chain conveyor can have.
+	#Range: > 1
+	maxChainConveyorConnections = 4
+	#.
 	#Damage dealt by active Crushing Wheels.
 	#Range: > 0
 	crushingDamage = 4
@@ -103,14 +111,6 @@
 	#Time in ticks until the next item launched by an ejector scans blocks for potential collisions
 	#Range: > 10
 	ejectorScanInterval = 120
-	#.
-	#Maximum length in blocks of chain conveyor connections.
-	#Range: > 5
-	maxChainConveyorLength = 32
-	#.
-	#Maximum amount of connections each chain conveyor can have.
-	#Range: > 1
-	maxChainConveyorConnections = 4
 
 	#.
 	#Encased Fan
@@ -155,7 +155,7 @@
 		#.
 		#Max length of rope available off a Rope Pulley.
 		#Range: > 1
-		maxRopeLength = 256
+		maxRopeLength = 384
 		#.
 		#Maximum allowed distance of two coupled minecarts.
 		#Range: > 1
@@ -249,64 +249,64 @@
 			#[in Stress Units]
 			#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
 			[kinetics.stressValues.v2.impact]
-				deployer = 4.0
-				millstone = 4.0
-				cuckoo_clock = 1.0
-				speedometer = 0.0
+				brass_encased_shaft = 0.0
+				turntable = 4.0
+				clutch = 0.0
+				mechanical_mixer = 4.0
+				gearbox = 0.0
+				mechanical_bearing = 4.0
 				copper_backtank = 4.0
+				hose_pulley = 4.0
+				display_board = 0.0
+				crushing_wheel = 8.0
+				adjustable_chain_gearshift = 0.0
+				millstone = 4.0
+				rotation_speed_controller = 0.0
+				sticky_mechanical_piston = 4.0
+				mechanical_crafter = 2.0
+				deployer = 4.0
+				elevator_pulley = 4.0
+				stressometer = 0.0
+				cogwheel = 0.0
+				encased_chain_drive = 0.0
+				belt = 0.0
+				brass_encased_large_cogwheel = 0.0
+				weighted_ejector = 2.0
+				chain_conveyor = 1.0
 				mechanical_saw = 4.0
 				flywheel = 0.0
-				adjustable_chain_gearshift = 0.0
-				mechanical_pump = 4.0
-				crushing_wheel = 8.0
-				mechanical_mixer = 4.0
-				gantry_shaft = 0.0
-				mechanical_arm = 2.0
-				andesite_encased_shaft = 0.0
-				mechanical_press = 8.0
-				large_cogwheel = 0.0
-				mechanical_drill = 4.0
-				andesite_encased_large_cogwheel = 0.0
-				stressometer = 0.0
-				shaft = 0.0
-				gearshift = 0.0
-				sequenced_gearshift = 0.0
-				weighted_ejector = 2.0
-				andesite_encased_cogwheel = 0.0
-				gearbox = 0.0
-				elevator_pulley = 4.0
-				mechanical_crafter = 2.0
-				display_board = 0.0
 				mechanical_piston = 4.0
-				mechanical_bearing = 4.0
-				clockwork_bearing = 4.0
-				encased_chain_drive = 0.0
-				clutch = 0.0
-				encased_fan = 2.0
-				rope_pulley = 4.0
-				rotation_speed_controller = 0.0
-				netherite_backtank = 4.0
-				mysterious_cuckoo_clock = 1.0
-				brass_encased_large_cogwheel = 0.0
-				brass_encased_shaft = 0.0
-				sticky_mechanical_piston = 4.0
-				turntable = 4.0
-				cogwheel = 0.0
-				belt = 0.0
+				speedometer = 0.0
 				brass_encased_cogwheel = 0.0
-				hose_pulley = 4.0
-				chain_conveyor = 1.0
+				clockwork_bearing = 4.0
+				mechanical_press = 8.0
+				mechanical_drill = 4.0
+				andesite_encased_shaft = 0.0
+				netherite_backtank = 4.0
+				mechanical_arm = 2.0
+				sequenced_gearshift = 0.0
+				andesite_encased_large_cogwheel = 0.0
+				shaft = 0.0
+				cuckoo_clock = 1.0
+				gearshift = 0.0
+				rope_pulley = 4.0
+				andesite_encased_cogwheel = 0.0
+				large_cogwheel = 0.0
+				encased_fan = 2.0
+				mysterious_cuckoo_clock = 1.0
+				gantry_shaft = 0.0
+				mechanical_pump = 4.0
 
 			#.
 			#[in Stress Units]
 			#Configure how much stress a source can accommodate for.
 			[kinetics.stressValues.v2.capacity]
+				steam_engine = 1024.0
+				water_wheel = 32.0
 				copper_valve_handle = 8.0
 				hand_crank = 8.0
-				steam_engine = 1024.0
 				creative_motor = 16384.0
 				large_water_wheel = 128.0
-				water_wheel = 32.0
 				windmill_bearing = 512.0
 
 #.
@@ -370,6 +370,10 @@
 	#Range: > 1
 	mechanicalArmRange = 5
 	#.
+	#Maximum distance in blocks a Package Port can be placed at from its target.
+	#Range: > 1
+	packagePortRange = 5
+	#.
 	#Maximum possible range in blocks of redstone link connections.
 	#Range: > 1
 	linkRange = 256
@@ -382,20 +386,16 @@
 	#Range: 1 ~ 2048
 	vaultCapacity = 20
 	#.
+	#The amount of packages a chain conveyor can carry at a time.
+	#Range: > 1
+	chainConveyorCapacity = 20
+	#.
 	#The amount of ticks a brass tunnel waits between distributions.
 	#Range: 1 ~ 10
 	brassTunnelTimer = 10
 	#.
 	#Whether hostile mobs walking near a seat will start riding it.
 	seatHostileMobs = true
-	#.
-	#Maximum distance in blocks a Package Port can be placed at from its target.
-	#Range: > 1
-	packagePortRange = 5
-	#.
-	#The amount of packages a chain conveyor can carry at a time.
-	#Range: > 1
-	chainConveyorCapacity = 20
 
 #.
 #Everything related to Schematic tools

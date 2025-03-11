@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.reggarf.mods.create_extra_casing.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.reggarf.mods.create_extra_casing.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/create_extra_casing.main.iml" filepath="$PROJECT_DIR$/.idea/modules/create_extra_casing.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/create_extra_casing.test.iml" filepath="$PROJECT_DIR$/.idea/modules/create_extra_casing.test.iml" />
     </modules>

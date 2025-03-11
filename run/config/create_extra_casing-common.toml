@@ -63,4 +63,7 @@
 				yellow_encased_shaft = 0.0
 				yellow_encased_large_cogwheel = 0.0
 				red_encased_large_cogwheel = 0.0
+				rgb_encased_shaft = 0.0
+				rgb_encased_large_cogwheel = 0.0
+				rgb_encased_cogwheel = 0.0
 

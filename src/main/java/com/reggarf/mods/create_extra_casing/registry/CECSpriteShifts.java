@@ -95,6 +95,9 @@ public class CECSpriteShifts {
             PURPLE_ENCASED_COGWHEEL_SIDE = ct(VERTICAL, "purple_encased_cogwheel_side"),
             PURPLE_ENCASED_COGWHEEL_OTHERSIDE = ct(HORIZONTAL, "purple_encased_cogwheel_side");
 
+    public static final CTSpriteShiftEntry RGB_CASING = ct(OMNIDIRECTIONAL, "rgb_casing"),
+            RGB_ENCASED_COGWHEEL_SIDE = ct(VERTICAL, "rgb_encased_cogwheel_side"),
+            RGB_ENCASED_COGWHEEL_OTHERSIDE = ct(HORIZONTAL, "rgb_encased_cogwheel_side");
 
 
     private static CTSpriteShiftEntry ct(AllCTTypes type, String name) {

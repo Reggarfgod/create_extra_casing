@@ -1,43 +1,32 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2025-02-07 22:03:15 +0530"
+      "unlock_right_away": "2025-03-11 23:31:04 +0530"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:savanna_plateau": "2025-02-07 22:03:33 +0530"
+      "minecraft:beach": "2025-03-11 23:55:42 +0530",
+      "minecraft:swamp": "2025-03-11 23:32:03 +0530"
     },
     "done": false
   },
   "create:root": {
     "criteria": {
-      "0": "2025-02-07 22:03:39 +0530"
-    },
-    "done": true
-  },
-  "create:belt": {
-    "criteria": {
-      "0": "2025-02-07 22:04:04 +0530"
+      "0": "2025-03-11 23:32:06 +0530"
     },
     "done": true
   },
   "create:recipes/misc/crafting/kinetics/gearbox": {
     "criteria": {
-      "has_item": "2025-03-04 13:44:15 +0530"
+      "has_item": "2025-03-12 00:43:39 +0530"
     },
     "done": true
   },
   "create:recipes/misc/crafting/kinetics/vertical_gearbox": {
     "criteria": {
-      "has_item": "2025-03-04 13:44:15 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2025-03-04 13:44:52 +0530"
+      "has_item": "2025-03-12 00:43:39 +0530"
     },
     "done": true
   },

@@ -36,7 +36,8 @@ public class CECBlockEntityTypes {
                     CECBlocks.YELLOW_ENCASED_SHAFT,
                     CECBlocks.MAGENTA_ENCASED_SHAFT,
                     CECBlocks.PINK_ENCASED_SHAFT,
-                    CECBlocks.PURPLE_ENCASED_SHAFT
+                    CECBlocks.PURPLE_ENCASED_SHAFT,
+                    CECBlocks.RGB_ENCASED_SHAFT
                     )
             .renderer(() -> ShaftRenderer::new)
             .register();
@@ -59,7 +60,9 @@ public class CECBlockEntityTypes {
                     CECBlocks.YELLOW_ENCASED_COGWHEEL,
                     CECBlocks.MAGENTA_ENCASED_COGWHEEL,
                     CECBlocks.PINK_ENCASED_COGWHEEL,
-                    CECBlocks.PURPLE_ENCASED_COGWHEEL)
+                    CECBlocks.PURPLE_ENCASED_COGWHEEL,
+                    CECBlocks.RGB_ENCASED_COGWHEEL
+                    )
             .renderer(() -> EncasedCogRenderer::small)
             .register();
 
@@ -81,7 +84,9 @@ public class CECBlockEntityTypes {
                 CECBlocks.YELLOW_ENCASED_LARGE_COGWHEEL,
                 CECBlocks.MAGENTA_ENCASED_LARGE_COGWHEEL,
                 CECBlocks.PINK_ENCASED_LARGE_COGWHEEL,
-                CECBlocks.PURPLE_ENCASED_LARGE_COGWHEEL)
+                CECBlocks.PURPLE_ENCASED_LARGE_COGWHEEL,
+                    CECBlocks.RGB_ENCASED_LARGE_COGWHEEL
+            )
             .renderer(() -> EncasedCogRenderer::large)
             .register();
 
@@ -102,7 +107,8 @@ public class CECBlockEntityTypes {
                     CECBlocks.YELLOW_ENCASED_FLUID_PIPE,
                     CECBlocks.MAGENTA_ENCASED_FLUID_PIPE,
                     CECBlocks.PINK_ENCASED_FLUID_PIPE,
-                    CECBlocks.PURPLE_ENCASED_FLUID_PIPE
+                    CECBlocks.PURPLE_ENCASED_FLUID_PIPE,
+                    CECBlocks.RGB_ENCASED_FLUID_PIPE
             )
             .register();
 

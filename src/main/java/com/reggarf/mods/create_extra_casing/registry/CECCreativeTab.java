@@ -34,6 +34,7 @@ public class CECCreativeTab {
                         pOutput.accept(CECBlocks.RED_CASING.get());
                         pOutput.accept(CECBlocks.WHITE_CASING.get());
                         pOutput.accept(CECBlocks.YELLOW_CASING.get());
+                        pOutput.accept(CECBlocks.RGB_CASING.get());
                     })
                     .build());
 

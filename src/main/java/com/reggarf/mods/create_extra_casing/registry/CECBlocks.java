@@ -850,7 +850,7 @@ public class CECBlocks {
     public static final BlockEntry<CECEncasedPipeBlock> PURPLE_ENCASED_FLUID_PIPE = REGISTRATE
             .block("purple_encased_fluid_pipe", p -> new CECEncasedPipeBlock(p, CECBlocks.PURPLE_CASING::get))
             .initialProperties(SharedProperties::copperMetal)
-            .properties(p -> p.mapColor(MapColor.COLOR_ORANGE))
+            .properties(p -> p.mapColor(MapColor.COLOR_PURPLE))
             .properties(BlockBehaviour.Properties::noOcclusion)
             .transform(pickaxeOnly())
             .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
@@ -861,5 +861,59 @@ public class CECBlocks {
             .loot((p, b) -> p.dropOther(b, AllBlocks.FLUID_PIPE.get()))
             .transform(EncasingRegistry.addVariantTo(AllBlocks.FLUID_PIPE))
             .register();
+
+
+    //RGB color
+
+    public static final BlockEntry<CasingBlock> RGB_CASING = REGISTRATE
+            .block("rgb_casing", CasingBlock::new)
+            .properties(p -> p.mapColor(MapColor.COLOR_PURPLE))
+            .transform(com.simibubi.create.foundation.data.BuilderTransformers.casing(() -> CECSpriteShifts.RGB_CASING))
+            .register();
+
+    public static final BlockEntry<CECEncasedShaftBlock> RGB_ENCASED_SHAFT = REGISTRATE
+            .block("rgb_encased_shaft", p -> new CECEncasedShaftBlock(p, CECBlocks.RGB_CASING::get))
+            .properties(p -> p.mapColor(MapColor.COLOR_PURPLE))
+            .transform(BuilderTransformers.encasedShaft("rgb", () -> CECSpriteShifts.RGB_CASING))
+            .transform(EncasingRegistry.addVariantTo(AllBlocks.SHAFT))
+            .transform(axeOrPickaxe())
+            .register();
+
+    public static final BlockEntry<CECEncasedCogwheelBlock> RGB_ENCASED_COGWHEEL = REGISTRATE
+            .block("rgb_encased_cogwheel", p -> new CECEncasedCogwheelBlock(p, false, CECBlocks.RGB_CASING::get))
+            .properties(p -> p.mapColor(MapColor.COLOR_PURPLE))
+            .transform(BuilderTransformers.encasedCogwheel("rgb", () -> CECSpriteShifts.RGB_CASING))
+            .transform(EncasingRegistry.addVariantTo(AllBlocks.COGWHEEL))
+            .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCogCTBehaviour(CECSpriteShifts.RGB_CASING,
+                    Couple.create(CECSpriteShifts.RGB_ENCASED_COGWHEEL_SIDE,
+                            CECSpriteShifts.RGB_ENCASED_COGWHEEL_OTHERSIDE))))
+            .transform(axeOrPickaxe())
+            .register();
+
+    public static final BlockEntry<CECEncasedCogwheelBlock> RGB_ENCASED_LARGE_COGWHEEL = REGISTRATE
+            .block("rgb_encased_large_cogwheel",
+                    p -> new CECEncasedCogwheelBlock(p, true, CECBlocks.RGB_CASING::get))
+            .properties(p -> p.mapColor(MapColor.COLOR_PURPLE))
+            .transform(BuilderTransformers.encasedLargeCogwheel("rgb", () -> CECSpriteShifts.PURPLE_CASING))
+            .transform(EncasingRegistry.addVariantTo(AllBlocks.LARGE_COGWHEEL))
+            .transform(axeOrPickaxe())
+            .register();
+
+    public static final BlockEntry<CECEncasedPipeBlock> RGB_ENCASED_FLUID_PIPE = REGISTRATE
+            .block("rgb_encased_fluid_pipe", p -> new CECEncasedPipeBlock(p, CECBlocks.RGB_CASING::get))
+            .initialProperties(SharedProperties::copperMetal)
+            .properties(p -> p.mapColor(MapColor.COLOR_PURPLE))
+            .properties(BlockBehaviour.Properties::noOcclusion)
+            .transform(pickaxeOnly())
+            .onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))
+            .blockstate(BlockStateGen.encasedPipe())
+            .onRegister(CreateRegistrate.connectedTextures(() -> new EncasedCTBehaviour(CECSpriteShifts.RGB_CASING)))
+            .onRegister(CreateRegistrate.casingConnectivity((block, cc) -> cc.make(block, CECSpriteShifts.RGB_CASING,
+                    (s, f) -> !s.getValue(CECEncasedPipeBlock.FACING_TO_PROPERTY_MAP.get(f)))))
+            .loot((p, b) -> p.dropOther(b, AllBlocks.FLUID_PIPE.get()))
+            .transform(EncasingRegistry.addVariantTo(AllBlocks.FLUID_PIPE))
+            .register();
+
+
     public static void register() {}
 }

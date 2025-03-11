@@ -15,6 +15,7 @@
   "block.create_extra_casing.yellow_casing": "Yellow Casing",
   "block.create_extra_casing.cyan_casing": "Cyan Casing",
   "block.create_extra_casing.magenta_casing": "Magenta Casing",
+  "block.create_extra_casing.rgb_casing": "RGB Casing",
 
   "creativetab.create_extra_casing_tab": "Create: Extra Casing",
 
