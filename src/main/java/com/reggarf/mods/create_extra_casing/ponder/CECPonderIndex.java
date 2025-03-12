@@ -28,7 +28,10 @@ public class CECPonderIndex {
                         CECBlocks.BROWN_CASING,
                         CECBlocks.YELLOW_CASING,
                         CECBlocks.ORANGE_CASING,
-                        CECBlocks.CYAN_CASING)
+                        CECBlocks.CYAN_CASING,
+                        CECBlocks.RGB_CASING
+
+                )
                 .addStoryBoard("createextracasing", CECKineticsScenes::shaftsCanBeEncased)
                 .addStoryBoard("createextracogcasing", CECKineticsScenes::cogAsRelay)
                 .addStoryBoard("encasing", CECKineticsScenes::beltsCanBeEncased);

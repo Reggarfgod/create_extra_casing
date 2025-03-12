@@ -42,6 +42,7 @@ public class CECPonderTags {
                 .add(CECBlocks.BROWN_CASING)
                 .add(CECBlocks.YELLOW_CASING)
                 .add(CECBlocks.ORANGE_CASING)
-                .add(CECBlocks.CYAN_CASING);
+                .add(CECBlocks.CYAN_CASING)
+                .add(CECBlocks.RGB_CASING);
     }
 }
