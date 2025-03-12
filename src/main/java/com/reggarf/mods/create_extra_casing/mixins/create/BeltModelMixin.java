@@ -62,18 +62,18 @@ public class BeltModelMixin {
         if (type.equals(CECBlocks.GREEN_BELT_CASING)) {
             cir.setReturnValue(CECSpriteShifts.GREEN_BELT_CASING.getOriginal());
         }
-//        if (type.equals(CECBlocks.BROWN_BELT_CASING)) {
-//            cir.setReturnValue(CECSpriteShifts.BROWN_BELT_CASING.getOriginal());
-//        }
+        if (type.equals(CECBlocks.BROWN_BELT_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.BROWN_BELT_CASING.getOriginal());
+        }
         if (type.equals(CECBlocks.PURPLE_BELT_CASING)) {
             cir.setReturnValue(CECSpriteShifts.PURPLE_BELT_CASING.getOriginal());
         }
         if (type.equals(CECBlocks.ORANGE_BELT_CASING)) {
             cir.setReturnValue(CECSpriteShifts.ORANGE_BELT_CASING.getOriginal());
         }
-//        if (type.equals(CECBlocks.YELLOW_BELT_CASING)) {
-//            cir.setReturnValue(CECSpriteShifts.YELLOW_BELT_CASING.getOriginal());
-//        }
+        if (type.equals(CECBlocks.YELLOW_BELT_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.YELLOW_BELT_CASING.getOriginal());
+        }
         if (type.equals(CECBlocks.PINK_BELT_CASING)) {
             cir.setReturnValue(CECSpriteShifts.PINK_BELT_CASING.getOriginal());
         }
@@ -85,6 +85,9 @@ public class BeltModelMixin {
         }
         if (type.equals(CECBlocks.CYAN_BELT_CASING)) {
             cir.setReturnValue(CECSpriteShifts.CYAN_BELT_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.RGB_BELT_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.RGB_BELT_CASING.getOriginal());
         }
 
 
@@ -120,18 +123,18 @@ public class BeltModelMixin {
             quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
             quads.addAll((alongX ? AllPartialModels.ANDESITE_BELT_COVER_X : AllPartialModels.ANDESITE_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
         }
-//        if (type.equals(CECBlocks.BROWN_BELT_CASING)){
-//            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
-//            quads.addAll((alongX ? AllPartialModels.ANDESITE_BELT_COVER_X : AllPartialModels.ANDESITE_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
-//        }
+        if (type.equals(CECBlocks.BROWN_BELT_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? AllPartialModels.ANDESITE_BELT_COVER_X : AllPartialModels.ANDESITE_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
         if (type.equals(CECBlocks.GREEN_BELT_CASING)){
             quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
             quads.addAll((alongX ? AllPartialModels.ANDESITE_BELT_COVER_X : AllPartialModels.ANDESITE_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
         }
-//        if (type.equals(CECBlocks.YELLOW_BELT_CASING)){
-//            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
-//            quads.addAll((alongX ? AllPartialModels.ANDESITE_BELT_COVER_X : AllPartialModels.ANDESITE_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
-//        }
+        if (type.equals(CECBlocks.YELLOW_BELT_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? AllPartialModels.ANDESITE_BELT_COVER_X : AllPartialModels.ANDESITE_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
         if (type.equals(CECBlocks.ORANGE_BELT_CASING)){
             quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
             quads.addAll((alongX ? AllPartialModels.ANDESITE_BELT_COVER_X : AllPartialModels.ANDESITE_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
@@ -153,6 +156,10 @@ public class BeltModelMixin {
             quads.addAll((alongX ? AllPartialModels.ANDESITE_BELT_COVER_X : AllPartialModels.ANDESITE_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
         }
         if (type.equals(CECBlocks.PURPLE_BELT_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? AllPartialModels.ANDESITE_BELT_COVER_X : AllPartialModels.ANDESITE_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.RGB_BELT_CASING)){
             quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
             quads.addAll((alongX ? AllPartialModels.ANDESITE_BELT_COVER_X : AllPartialModels.ANDESITE_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
         }
@@ -190,20 +197,20 @@ public class BeltModelMixin {
             cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.BLUE_BELT_CASING));
             return;
         }
-//        if (type.equals(CECBlocks.BROWN_BELT_CASING)){
-//            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.BROWN_BELT_CASING));
-//            return;
-//        }
+        if (type.equals(CECBlocks.BROWN_BELT_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.BROWN_BELT_CASING));
+            return;
+        }
 
         if (type.equals(CECBlocks.GREEN_BELT_CASING)){
             cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.GREEN_BELT_CASING));
             return;
         }
 
-//        if (type.equals(CECBlocks.YELLOW_BELT_CASING)){
-//            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.YELLOW_BELT_CASING));
-//            return;
-//        }
+        if (type.equals(CECBlocks.YELLOW_BELT_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.YELLOW_BELT_CASING));
+            return;
+        }
 
         if (type.equals(CECBlocks.ORANGE_BELT_CASING)){
             cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.ORANGE_BELT_CASING));
@@ -232,6 +239,10 @@ public class BeltModelMixin {
 
         if (type.equals(CECBlocks.PURPLE_BELT_CASING)){
             cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.PURPLE_BELT_CASING));
+            return;
+        }
+        if (type.equals(CECBlocks.RGB_BELT_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.RGB_BELT_CASING));
             return;
         }
 

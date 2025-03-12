@@ -15,7 +15,7 @@ public class CECCreativeTab {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CEC.MODID);
 
     public static final RegistryObject<CreativeModeTab> CC_TAB = TABS.register("create_extra_casing_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(CECBlocks.BLUE_CASING.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(CECBlocks.RGB_CASING.get()))
                     .title(Component.translatable("creativetab.create_extra_casing_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(CECBlocks.BLACK_CASING.get());

@@ -59,10 +59,10 @@ public abstract class BeltBlockMixin {
             cir.setReturnValue(InteractionResult.SUCCESS);
             return;
         }
-//        if (cmr$customCasingUse(CECBlocks.YELLOW_CASING,CECBlocks.YELLOW_BELT_CASING,heldItem,world,pos,player)) {
-//            cir.setReturnValue(InteractionResult.SUCCESS);
-//            return;
-//        }
+        if (cmr$customCasingUse(CECBlocks.YELLOW_CASING,CECBlocks.YELLOW_BELT_CASING,heldItem,world,pos,player)) {
+           cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
         if (cmr$customCasingUse(CECBlocks.GREEN_CASING,CECBlocks.GREEN_BELT_CASING,heldItem,world,pos,player)) {
             cir.setReturnValue(InteractionResult.SUCCESS);
             return;
@@ -83,15 +83,19 @@ public abstract class BeltBlockMixin {
             cir.setReturnValue(InteractionResult.SUCCESS);
             return;
         }
-//        if (cmr$customCasingUse(CECBlocks.BROWN_CASING,CECBlocks.BROWN_BELT_CASING,heldItem,world,pos,player)) {
-//            cir.setReturnValue(InteractionResult.SUCCESS);
-//            return;
-//        }
+        if (cmr$customCasingUse(CECBlocks.BROWN_CASING,CECBlocks.BROWN_BELT_CASING,heldItem,world,pos,player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
         if (cmr$customCasingUse(CECBlocks.CYAN_CASING,CECBlocks.CYAN_BELT_CASING,heldItem,world,pos,player)) {
             cir.setReturnValue(InteractionResult.SUCCESS);
             return;
         }
         if (cmr$customCasingUse(CECBlocks.PURPLE_CASING,CECBlocks.PURPLE_BELT_CASING,heldItem,world,pos,player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.RGB_CASING,CECBlocks.RGB_BELT_CASING,heldItem,world,pos,player)) {
             cir.setReturnValue(InteractionResult.SUCCESS);
             return;
         }
