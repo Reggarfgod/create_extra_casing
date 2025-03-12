@@ -24,6 +24,6 @@ forgedatauserdev
 create_extra_casing
 --all
 --output
-D:\\Download\\create_extra_casing\\src\\generated\\resources
+D:\\Download\\extra\\src\\generated\\resources
 --existing
-D:\\Download\\create_extra_casing\\src\\main\\resources
+D:\\Download\\extra\\src\\main\\resources

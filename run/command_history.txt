@@ -1,4 +1,0 @@
-/give Dev minecraft:structure_block
-/gamemode survival
-/gamemode creative
-/gamemode survival

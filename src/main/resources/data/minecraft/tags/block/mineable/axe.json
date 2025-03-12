@@ -63,6 +63,11 @@
     "create_extra_casing:purple_casing",
     "create_extra_casing:purple_encased_shaft",
     "create_extra_casing:purple_encased_cogwheel",
-    "create_extra_casing:purple_encased_large_cogwheel"
+    "create_extra_casing:purple_encased_large_cogwheel",
+    "create_extra_casing:rgb_casing",
+    "create_extra_casing:rgb_encased_shaft",
+    "create_extra_casing:rgb_encased_cogwheel",
+    "create_extra_casing:rgb_encased_large_cogwheel",
+    "create_extra_casing:rgb_encased_fluid_pipe"
   ]
 }

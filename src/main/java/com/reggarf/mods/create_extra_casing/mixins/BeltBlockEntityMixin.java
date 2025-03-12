@@ -42,8 +42,9 @@ public abstract class BeltBlockEntityMixin {
         if (createCasing$newCasing.equals(CECBlocks.MAGENTA_BELT_CASING)) return Block.getId(CECBlocks.MAGENTA_CASING.getDefaultState());
         if (createCasing$newCasing.equals(CECBlocks.PINK_BELT_CASING)) return Block.getId(CECBlocks.PINK_CASING.getDefaultState());
         if (createCasing$newCasing.equals(CECBlocks.PURPLE_BELT_CASING)) return Block.getId(CECBlocks.PURPLE_CASING.getDefaultState());
-        //if (createCasing$newCasing.equals(CECBlocks.BROWN_BELT_CASING)) return Block.getId(CECBlocks.BROWN_CASING.getDefaultState());
-        //if (createCasing$newCasing.equals(CECBlocks.YELLOW_BELT_CASING)) return Block.getId(CECBlocks.YELLOW_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.BROWN_BELT_CASING)) return Block.getId(CECBlocks.BROWN_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.YELLOW_BELT_CASING)) return Block.getId(CECBlocks.YELLOW_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.RGB_BELT_CASING)) return Block.getId(CECBlocks.YELLOW_CASING.getDefaultState());
         return old;
     }
 

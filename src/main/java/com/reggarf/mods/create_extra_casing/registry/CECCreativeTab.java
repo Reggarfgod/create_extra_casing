@@ -21,7 +21,7 @@ public class CECCreativeTab {
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("creativetab.create_extra_casing_tab"))
                     .withTabsBefore(AllCreativeModeTabs.BASE_CREATIVE_TAB.getKey())
-                    .icon(CECBlocks.RED_CASING::asStack)
+                    .icon(CECBlocks.RGB_CASING::asStack)
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(CECBlocks.BLACK_CASING.get());
                         pOutput.accept(CECBlocks.BLUE_CASING.get());
@@ -39,6 +39,8 @@ public class CECCreativeTab {
                         pOutput.accept(CECBlocks.RED_CASING.get());
                         pOutput.accept(CECBlocks.WHITE_CASING.get());
                         pOutput.accept(CECBlocks.YELLOW_CASING.get());
+                        pOutput.accept(CECBlocks.RGB_CASING.get());
+
                     })
                     .build());
 

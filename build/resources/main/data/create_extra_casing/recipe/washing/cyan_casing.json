@@ -1,0 +1,15 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "create_extra_casing:cyan_casing"
+    }
+  ],
+  "results": [
+    {
+      "item": {
+        "id":"create:andesite_casing"
+      }
+    }
+  ]
+}

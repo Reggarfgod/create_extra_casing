@@ -20,15 +20,17 @@ public class CECSpriteShifts {
     public static final SpriteShiftEntry WHITE_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/white_belt_casing");
     public static final SpriteShiftEntry LIGHT_BLUE_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/light_blue_belt_casing");
     public static final SpriteShiftEntry BLUE_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/blue_belt_casing");
-    //public static final SpriteShiftEntry YELLOW_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/yellow_belt_casing");
+    public static final SpriteShiftEntry YELLOW_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/yellow_belt_casing");
     public static final SpriteShiftEntry GREEN_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/green_belt_casing");
     public static final SpriteShiftEntry PURPLE_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/purple_belt_casing");
     public static final SpriteShiftEntry ORANGE_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/orange_belt_casing");
     public static final SpriteShiftEntry PINK_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/pink_belt_casing");
-    //public static final SpriteShiftEntry BROWN_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/brown_belt_casing");
+    public static final SpriteShiftEntry BROWN_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/brown_belt_casing");
     public static final SpriteShiftEntry MAGENTA_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/magenta_belt_casing");
     public static final SpriteShiftEntry LIME_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/lime_belt_casing");
     public static final SpriteShiftEntry CYAN_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/cyan_belt_casing");
+    public static final SpriteShiftEntry RGB_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/rgb_belt_casing");
+
 
 
 
@@ -96,6 +98,9 @@ public class CECSpriteShifts {
             PURPLE_ENCASED_COGWHEEL_SIDE = vertical(  "purple_encased_cogwheel_side"),
             PURPLE_ENCASED_COGWHEEL_OTHERSIDE = horizontal( "purple_encased_cogwheel_side");
 
+    public static final CTSpriteShiftEntry RGB_CASING = omni( "rgb_casing"),
+            RGB_ENCASED_COGWHEEL_SIDE = vertical(  "rgb_encased_cogwheel_side"),
+            RGB_ENCASED_COGWHEEL_OTHERSIDE = horizontal( "rgb_encased_cogwheel_side");
 
 
     private static CTSpriteShiftEntry horizontal(String name) {
