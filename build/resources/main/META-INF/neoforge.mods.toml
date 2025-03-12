@@ -17,7 +17,7 @@ issueTrackerURL="https://github.com/Reggarfgod/create_extra_casing/issues" #opti
 # The modid of the mod
 modId = "create_extra_casing" #mandatory
 # The version number of the mod
-version = "3.0.0-NeoForge-1.21.1" #mandatory
+version = "4.0.1-NeoForge-1.21.1" #mandatory
 # A display name for the mod
 displayName = "Create: Extra Casing" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.neoforge.net/docs/misc/updatechecker/
