@@ -11,6 +11,10 @@
         <module name="create_extra_casing.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="17">
+      <module name="extra" target="21" />
+      <module name="extra.main" target="21" />
+      <module name="extra.test" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
