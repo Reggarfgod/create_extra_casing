@@ -20,6 +20,7 @@ public class CECConfigs {
 
 	private static final Map<ModConfig.Type, ConfigBase> CONFIGS = new EnumMap<>(ModConfig.Type.class);
 	private static CECCommon common;
+
 	public static CECCommon common() {
 		return common;
 	}
@@ -48,24 +49,19 @@ public class CECConfigs {
 
 		BlockStressValues.IMPACTS.registerProvider(common().kinetics.stressValues::getImpact);
 		BlockStressValues.CAPACITIES.registerProvider(common().kinetics.stressValues::getCapacity);
-
-
 	}
 
 	@SubscribeEvent
 	public static void onLoad(ModConfigEvent.Loading event) {
 		for (ConfigBase config : CONFIGS.values())
-			if (config.specification == event.getConfig()
-				.getSpec())
+			if (config.specification == event.getConfig().getSpec())
 				config.onLoad();
 	}
 
 	@SubscribeEvent
 	public static void onReload(ModConfigEvent.Reloading event) {
 		for (ConfigBase config : CONFIGS.values())
-			if (config.specification == event.getConfig()
-				.getSpec())
+			if (config.specification == event.getConfig().getSpec())
 				config.onReload();
 	}
-
 }
