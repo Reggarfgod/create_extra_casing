@@ -45,6 +45,25 @@ public abstract class BeltBlockEntityMixin {
         if (createCasing$newCasing.equals(CECBlocks.BROWN_BELT_CASING)) return Block.getId(CECBlocks.BROWN_CASING.getDefaultState());
         if (createCasing$newCasing.equals(CECBlocks.YELLOW_BELT_CASING)) return Block.getId(CECBlocks.YELLOW_CASING.getDefaultState());
         if (createCasing$newCasing.equals(CECBlocks.RGB_BELT_CASING)) return Block.getId(CECBlocks.RGB_CASING.getDefaultState());
+
+        //BRASS
+        if (createCasing$newCasing.equals(CECBlocks.RED_BELT_BRASS_CASING)) return Block.getId(CECBlocks.RED_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.WHITE_BELT_BRASS_CASING)) return Block.getId(CECBlocks.WHITE_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.BLACK_BELT_BRASS_CASING)) return Block.getId(CECBlocks.BLACK_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.GRAY_BELT_BRASS_CASING)) return Block.getId(CECBlocks.GRAY_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.LIGHT_GRAY_BELT_BRASS_CASING)) return Block.getId(CECBlocks.LIGHT_GRAY_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.BLUE_BELT_BRASS_CASING)) return Block.getId(CECBlocks.BLUE_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.LIGHT_BLUE_BELT_BRASS_CASING)) return Block.getId(CECBlocks.LIGHT_BLUE_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.GREEN_BELT_BRASS_CASING)) return Block.getId(CECBlocks.GREEN_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.LIME_BELT_BRASS_CASING)) return Block.getId(CECBlocks.LIME_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.CYAN_BELT_BRASS_CASING)) return Block.getId(CECBlocks.CYAN_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.ORANGE_BELT_BRASS_CASING)) return Block.getId(CECBlocks.ORANGE_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.MAGENTA_BELT_BRASS_CASING)) return Block.getId(CECBlocks.MAGENTA_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.PINK_BELT_BRASS_CASING)) return Block.getId(CECBlocks.PINK_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.PURPLE_BELT_BRASS_CASING)) return Block.getId(CECBlocks.PURPLE_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.BROWN_BELT_BRASS_CASING)) return Block.getId(CECBlocks.BROWN_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.YELLOW_BELT_BRASS_CASING)) return Block.getId(CECBlocks.YELLOW_BRASS_CASING.getDefaultState());
+        if (createCasing$newCasing.equals(CECBlocks.RGB_BELT_BRASS_CASING)) return Block.getId(CECBlocks.RGB_BRASS_CASING.getDefaultState());
         return old;
     }
 

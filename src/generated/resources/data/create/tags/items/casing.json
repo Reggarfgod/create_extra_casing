@@ -16,6 +16,8 @@
     "create_extra_casing:cyan_casing",
     "create_extra_casing:magenta_casing",
     "create_extra_casing:purple_casing",
-    "create_extra_casing:rgb_casing"
+    "create_extra_casing:rgb_casing",
+    "create_extra_casing:red_brass_casing",
+    "create_extra_casing:white_brass_casing"
   ]
 }

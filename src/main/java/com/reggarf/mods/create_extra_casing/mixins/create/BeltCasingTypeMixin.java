@@ -42,6 +42,27 @@ public class BeltCasingTypeMixin {
         CECBlocks.CYAN_BELT_CASING = encased$addVariant("cyan");
         CECBlocks.MAGENTA_BELT_CASING = encased$addVariant("magenta");
         CECBlocks.RGB_BELT_CASING = encased$addVariant("rgb");
+
+        //BRASS
+
+        CECBlocks.LIGHT_GRAY_BELT_BRASS_CASING = encased$addVariant("light_gray_brass");
+        CECBlocks.RED_BELT_BRASS_CASING = encased$addVariant("red_brass");
+        CECBlocks.GRAY_BELT_BRASS_CASING = encased$addVariant("gray_brass");
+        CECBlocks.BLACK_BELT_BRASS_CASING = encased$addVariant("black_brass");
+        CECBlocks.WHITE_BELT_BRASS_CASING = encased$addVariant("white_brass");
+        CECBlocks.LIGHT_BLUE_BELT_BRASS_CASING = encased$addVariant("light_blue_brass");
+        CECBlocks.BLUE_BELT_BRASS_CASING = encased$addVariant("blue_brass");
+        CECBlocks.BROWN_BELT_BRASS_CASING = encased$addVariant("brown_brass");
+        CECBlocks.GREEN_BELT_BRASS_CASING = encased$addVariant("green_brass");
+        CECBlocks.PURPLE_BELT_BRASS_CASING = encased$addVariant("purple_brass");
+        CECBlocks.LIME_BELT_BRASS_CASING = encased$addVariant("lime_brass");
+        CECBlocks.YELLOW_BELT_BRASS_CASING = encased$addVariant("yellow_brass");
+        CECBlocks.PINK_BELT_BRASS_CASING = encased$addVariant("pink_brass");
+        CECBlocks.ORANGE_BELT_BRASS_CASING = encased$addVariant("orange_brass");
+        CECBlocks.CYAN_BELT_BRASS_CASING = encased$addVariant("cyan_brass");
+        CECBlocks.MAGENTA_BELT_BRASS_CASING = encased$addVariant("magenta_brass");
+        CECBlocks.RGB_BELT_BRASS_CASING = encased$addVariant("rgb_brass");
+
     }
 
     @Unique

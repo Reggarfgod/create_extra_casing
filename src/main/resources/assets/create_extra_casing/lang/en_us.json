@@ -5,6 +5,12 @@
   "block.create_extra_casing.red_encased_large_cogwheel": "Red Encased Large Cogwheel",
   "block.create_extra_casing.red_encased_shaft": "Red Encased Shaft",
 
+  "block.create_extra_casing.red_brass_casing": "Red Brass Casing",
+  "block.create_extra_casing.red_brass_encased_fluid_pipe": "Red Brass Encased Fluid Pipe",
+  "block.create_extra_casing.red_brass_encased_cogwheel": "Red Brass Encased Cogwheel",
+  "block.create_extra_casing.red_brass_encased_large_cogwheel": "Red Brass Encased Large Cogwheel",
+  "block.create_extra_casing.red_brass_encased_shaft": "Red Brass Encased Shaft",
+
   "block.create_extra_casing.black_casing": "Black Casing",
   "block.create_extra_casing.black_encased_fluid_pipe": "Black Encased Fluid Pipe",
   "block.create_extra_casing.black_encased_cogwheel": "Black Encased Cogwheel",
