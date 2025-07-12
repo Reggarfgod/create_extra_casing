@@ -20,6 +20,8 @@ public abstract class AllSpriteShiftsMixin {
     private static void encased$modifyCreativeCT(CTType type, String blockTextureName, CallbackInfoReturnable<CTSpriteShiftEntry> cir){
         if (blockTextureName.equals("red_brass_casing") && type.equals(AllCTTypes.RECTANGLE))
             cir.setReturnValue(CTSpriteShifter.getCT(AllCTTypes.OMNIDIRECTIONAL, Create.asResource("block/" + blockTextureName), CEC.asResource("block/" + blockTextureName + "_connected")));
+        if (blockTextureName.equals("white_brass_casing") && type.equals(AllCTTypes.RECTANGLE))
+            cir.setReturnValue(CTSpriteShifter.getCT(AllCTTypes.OMNIDIRECTIONAL, Create.asResource("block/" + blockTextureName), CEC.asResource("block/" + blockTextureName + "_connected")));
     }
 
 }

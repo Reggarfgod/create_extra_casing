@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "create_extra_casing:block/red_brass_casing"
+      "model": "create_extra_casing:block/white_brass_casing"
     }
   }
 }

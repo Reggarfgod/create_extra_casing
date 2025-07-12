@@ -5,7 +5,7 @@
         "down": "false"
       },
       "apply": {
-        "model": "create_extra_casing:block/encased_fluid_pipe/red_brass/block_flat",
+        "model": "create_extra_casing:block/encased_fluid_pipe/white_brass/block_flat",
         "x": -90
       }
     },
@@ -14,7 +14,7 @@
         "up": "false"
       },
       "apply": {
-        "model": "create_extra_casing:block/encased_fluid_pipe/red_brass/block_flat",
+        "model": "create_extra_casing:block/encased_fluid_pipe/white_brass/block_flat",
         "x": 90
       }
     },
@@ -23,7 +23,7 @@
         "north": "false"
       },
       "apply": {
-        "model": "create_extra_casing:block/encased_fluid_pipe/red_brass/block_flat",
+        "model": "create_extra_casing:block/encased_fluid_pipe/white_brass/block_flat",
         "y": 180
       }
     },
@@ -32,7 +32,7 @@
         "south": "false"
       },
       "apply": {
-        "model": "create_extra_casing:block/encased_fluid_pipe/red_brass/block_flat"
+        "model": "create_extra_casing:block/encased_fluid_pipe/white_brass/block_flat"
       }
     },
     {
@@ -40,7 +40,7 @@
         "west": "false"
       },
       "apply": {
-        "model": "create_extra_casing:block/encased_fluid_pipe/red_brass/block_flat",
+        "model": "create_extra_casing:block/encased_fluid_pipe/white_brass/block_flat",
         "y": 90
       }
     },
@@ -49,7 +49,7 @@
         "east": "false"
       },
       "apply": {
-        "model": "create_extra_casing:block/encased_fluid_pipe/red_brass/block_flat",
+        "model": "create_extra_casing:block/encased_fluid_pipe/white_brass/block_flat",
         "y": 270
       }
     },
@@ -58,7 +58,7 @@
         "down": "true"
       },
       "apply": {
-        "model": "create_extra_casing:block/encased_fluid_pipe/red_brass/block_open",
+        "model": "create_extra_casing:block/encased_fluid_pipe/white_brass/block_open",
         "x": -90
       }
     },
@@ -67,7 +67,7 @@
         "up": "true"
       },
       "apply": {
-        "model": "create_extra_casing:block/encased_fluid_pipe/red_brass/block_open",
+        "model": "create_extra_casing:block/encased_fluid_pipe/white_brass/block_open",
         "x": 90
       }
     },
@@ -76,7 +76,7 @@
         "north": "true"
       },
       "apply": {
-        "model": "create_extra_casing:block/encased_fluid_pipe/red_brass/block_open",
+        "model": "create_extra_casing:block/encased_fluid_pipe/white_brass/block_open",
         "y": 180
       }
     },
@@ -85,7 +85,7 @@
         "south": "true"
       },
       "apply": {
-        "model": "create_extra_casing:block/encased_fluid_pipe/red_brass/block_open"
+        "model": "create_extra_casing:block/encased_fluid_pipe/white_brass/block_open"
       }
     },
     {
@@ -93,7 +93,7 @@
         "west": "true"
       },
       "apply": {
-        "model": "create_extra_casing:block/encased_fluid_pipe/red_brass/block_open",
+        "model": "create_extra_casing:block/encased_fluid_pipe/white_brass/block_open",
         "y": 90
       }
     },
@@ -102,7 +102,7 @@
         "east": "true"
       },
       "apply": {
-        "model": "create_extra_casing:block/encased_fluid_pipe/red_brass/block_open",
+        "model": "create_extra_casing:block/encased_fluid_pipe/white_brass/block_open",
         "y": 270
       }
     }
