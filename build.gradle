@@ -148,7 +148,7 @@ repositories {
         url = "https://modmaven.dev"
     }
     maven { url = "https://maven.createmod.net" } // Create, Ponder, Flywheel
-    maven { url = "https://maven.tterrag.com" } // Registrate
+    maven { url = "https://maven.ithundxr.dev/mirror" } // Registrate
     maven { url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven/" } // ForgeConfigAPIPort
 
 }
@@ -160,7 +160,6 @@ dependencies {
     // If the group id is "net.minecraft" and the artifact id is one of ["client", "server", "joined"],
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-
 
 
     implementation(fg.deobf("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") { transitive = false })
@@ -185,8 +184,6 @@ minecraft {
         client {
             property("mixin.env.remapRefMap", "true")
             property("mixin.env.refMapRemappingFile", "${projectDir}/build/createSrgToMcp/output.srg")
-
-            arg("-mixin.config=create.mixins.json")
         }
     }
 }

@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:brass_casing"
+    },
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_extra_casing:rgb_brass_casing"
+    }
+  ]
+}

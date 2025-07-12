@@ -33,23 +33,23 @@ public class CECSpriteShifts {
     public static final SpriteShiftEntry RGB_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/rgb_belt_casing");
 
     //BRASS
-    public static final SpriteShiftEntry LIGHT_GRAY_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/light_gray_belt_brass_casing");
-    public static final SpriteShiftEntry RED_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/red_belt_brass_casing");
-    public static final SpriteShiftEntry GRAY_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/gray_belt_brass_casing");
-    public static final SpriteShiftEntry BLACK_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/black_belt_brass_casing");
-    public static final SpriteShiftEntry WHITE_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/white_belt_brass_casing");
+    public static final SpriteShiftEntry LIGHT_GRAY_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/light_gray_brass_belt_casing");
+    public static final SpriteShiftEntry RED_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/red_brass_belt_casing");
+    public static final SpriteShiftEntry GRAY_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/gray_brass_belt_casing");
+    public static final SpriteShiftEntry BLACK_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/black_brass_belt_casing");
+    public static final SpriteShiftEntry WHITE_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/white_brass_belt_casing");
     public static final SpriteShiftEntry LIGHT_BLUE_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/light_blue_belt_brass_casing");
-    public static final SpriteShiftEntry BLUE_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/blue_belt_brass_casing");
-    public static final SpriteShiftEntry YELLOW_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/yellow_belt_brass_casing");
-    public static final SpriteShiftEntry GREEN_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/green_belt_brass_casing");
-    public static final SpriteShiftEntry PURPLE_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/purple_belt_brass_casing");
-    public static final SpriteShiftEntry ORANGE_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/orange_belt_brass_casing");
-    public static final SpriteShiftEntry PINK_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/pink_belt_brass_casing");
-    public static final SpriteShiftEntry BROWN_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/brown_belt_brass_casing");
-    public static final SpriteShiftEntry MAGENTA_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/magenta_belt_brass_casing");
-    public static final SpriteShiftEntry LIME_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/lime_belt_brass_casing");
-    public static final SpriteShiftEntry CYAN_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/cyan_belt_brass_casing");
-    public static final SpriteShiftEntry RGB_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/rgb_belt_brass_casing");
+    public static final SpriteShiftEntry BLUE_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/blue_brass_belt_casing");
+    public static final SpriteShiftEntry YELLOW_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/yellow_brass_belt_casing");
+    public static final SpriteShiftEntry GREEN_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/green_brass_belt_casing");
+    public static final SpriteShiftEntry PURPLE_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/purple_brass_belt_casing");
+    public static final SpriteShiftEntry ORANGE_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/orange_brass_belt_casing");
+    public static final SpriteShiftEntry PINK_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/pink_brass_belt_casing");
+    public static final SpriteShiftEntry BROWN_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/brown_brass_belt_casing");
+    public static final SpriteShiftEntry MAGENTA_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/magenta_brass_belt_casing");
+    public static final SpriteShiftEntry LIME_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/lime_brass_belt_casing");
+    public static final SpriteShiftEntry CYAN_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/cyan_brass_belt_casing");
+    public static final SpriteShiftEntry RGB_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/rgb_brass_belt_casing");
 
 
     public static final CTSpriteShiftEntry RED_CASING = ct(OMNIDIRECTIONAL, "red_casing"),

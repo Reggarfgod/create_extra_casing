@@ -9,8 +9,7 @@
     "create.BeltBlockEntityMixin",
     "create.BeltBlockMixin",
     "create.BeltCasingTypeMixin",
-    "create.BeltModelMixin",
-    "create.AllSpriteShiftsMixin"
+    "create.BeltModelMixin"
   ],
   "client": [
   ],

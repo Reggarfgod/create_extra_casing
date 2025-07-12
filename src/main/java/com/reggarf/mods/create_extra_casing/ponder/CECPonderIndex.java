@@ -29,7 +29,24 @@ public class CECPonderIndex {
                         CECBlocks.YELLOW_CASING,
                         CECBlocks.ORANGE_CASING,
                         CECBlocks.CYAN_CASING,
-                        CECBlocks.RGB_CASING
+                        CECBlocks.RGB_CASING,
+                        //BRASS
+                        CECBlocks.RED_BRASS_CASING,
+                        CECBlocks.GRAY_BRASS_CASING,
+                        CECBlocks.BLUE_BRASS_CASING,
+                        CECBlocks.LIGHT_BLUE_BRASS_CASING,
+                        CECBlocks.LIGHT_GRAY_BRASS_CASING,
+                        CECBlocks.WHITE_BRASS_CASING,
+                        CECBlocks.GREEN_BRASS_CASING,
+                        CECBlocks.LIME_BRASS_CASING,
+                        CECBlocks.MAGENTA_BRASS_CASING,
+                        CECBlocks.PURPLE_BRASS_CASING,
+                        CECBlocks.PINK_BRASS_CASING,
+                        CECBlocks.BROWN_BRASS_CASING,
+                        CECBlocks.YELLOW_BRASS_CASING,
+                        CECBlocks.ORANGE_BRASS_CASING,
+                        CECBlocks.CYAN_BRASS_CASING,
+                        CECBlocks.RGB_BRASS_CASING
 
                 )
                 .addStoryBoard("createextracasing", CECKineticsScenes::shaftsCanBeEncased)
