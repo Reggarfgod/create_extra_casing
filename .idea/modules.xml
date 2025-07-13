@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/extracasing.main.iml" filepath="$PROJECT_DIR$/.idea/modules/extracasing.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/extracasing.test.iml" filepath="$PROJECT_DIR$/.idea/modules/extracasing.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/new_project.main.iml" filepath="$PROJECT_DIR$/.idea/modules/new_project.main.iml" />
     </modules>
   </component>
 </project>

@@ -43,7 +43,25 @@ public class CECPonderTags {
 				.add(CECBlocks.YELLOW_CASING)
 				.add(CECBlocks.ORANGE_CASING)
 				.add(CECBlocks.CYAN_CASING)
-				.add(CECBlocks.RGB_CASING);
+				.add(CECBlocks.RGB_CASING)
+				//BRASS
+				.add(CECBlocks.BLACK_BRASS_CASING)
+				.add(CECBlocks.RED_BRASS_CASING)
+				.add(CECBlocks.GRAY_BRASS_CASING)
+				.add(CECBlocks.BLUE_BRASS_CASING)
+				.add(CECBlocks.LIGHT_BLUE_BRASS_CASING)
+				.add(CECBlocks.LIGHT_GRAY_BRASS_CASING)
+				.add(CECBlocks.WHITE_BRASS_CASING)
+				.add(CECBlocks.GREEN_BRASS_CASING)
+				.add(CECBlocks.LIME_BRASS_CASING)
+				.add(CECBlocks.MAGENTA_BRASS_CASING)
+				.add(CECBlocks.PURPLE_BRASS_CASING)
+				.add(CECBlocks.PINK_BRASS_CASING)
+				.add(CECBlocks.BROWN_BRASS_CASING)
+				.add(CECBlocks.YELLOW_BRASS_CASING)
+				.add(CECBlocks.ORANGE_BRASS_CASING)
+				.add(CECBlocks.CYAN_BRASS_CASING)
+				.add(CECBlocks.RGB_BRASS_CASING);
 	}
 
 }

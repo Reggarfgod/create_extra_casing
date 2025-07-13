@@ -24,6 +24,6 @@ forgedatauserdev
 create_extra_casing
 --all
 --output
-E:\\MInecraft\\extracasing\\src\\generated\\resources
+"E:\\new project\\src\\generated\\resources"
 --existing
-E:\\MInecraft\\extracasing\\src\\main\\resources
+"E:\\new project\\src\\main\\resources"

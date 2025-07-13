@@ -1,9 +1,0 @@
-{
-  "parent": "create:block/encased_cogwheel/item",
-  "textures": {
-    "1": "create_extra_casing:block/black_casing_log",
-    "casing": "create_extra_casing:block/black_casing",
-    "particle": "create_extra_casing:block/black_casing",
-    "side": "create_extra_casing:block/black_encased_cogwheel_side"
-  }
-}
