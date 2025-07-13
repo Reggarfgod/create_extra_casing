@@ -11,9 +11,9 @@ forgedatauserdev
 --gameDir
 .
 --fml.neoForgeVersion
-21.1.125
+21.1.152
 --fml.fmlVersion
-4.0.37
+4.0.38
 --fml.mcVersion
 1.21.1
 --fml.neoFormVersion
@@ -24,6 +24,6 @@ forgedatauserdev
 create_extra_casing
 --all
 --output
-D:\\Download\\extra\\src\\generated\\resources
+E:\\MInecraft\\extracasing\\src\\generated\\resources
 --existing
-D:\\Download\\extra\\src\\main\\resources
+E:\\MInecraft\\extracasing\\src\\main\\resources

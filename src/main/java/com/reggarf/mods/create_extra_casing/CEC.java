@@ -5,6 +5,7 @@ import com.reggarf.mods.create_extra_casing.config.CECConfigs;
 import com.reggarf.mods.create_extra_casing.registry.CECBlockEntityTypes;
 import com.reggarf.mods.create_extra_casing.registry.CECBlocks;
 import com.reggarf.mods.create_extra_casing.registry.CECCreativeTab;
+import com.reggarf.mods.create_extra_casing.registry.CECMessageType;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.foundation.item.ItemDescription;
 import com.simibubi.create.foundation.item.KineticStats;
@@ -47,13 +48,18 @@ public class CEC {
     public CEC(IEventBus modEventBus, ModContainer modContainer) {
         CECConfigs.register(ModLoadingContext.get(),modContainer);
         modEventBus.addListener(this::commonSetup);
+
         NeoForge.EVENT_BUS.register(this);
         REGISTRATE.registerEventListeners(modEventBus);
+
         modEventBus.addListener(this::addCreative);
         CECCreativeTab.register(modEventBus);
+
         RegistrateDistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> CECClient.onCtorClient(modEventBus));
         CECBlockEntityTypes.register();
+
         CECBlocks.register();
+        NeoForge.EVENT_BUS.register(CECMessageType.class);
     }
 
 

@@ -100,6 +100,76 @@ public abstract class BeltBlockMixin {
             cir.setReturnValue(ItemInteractionResult.SUCCESS);
             return;
         }
+        //BRASS
+
+        if (cmr$customCasingUse(CECBlocks.LIGHT_GRAY_BRASS_CASING,CECBlocks.LIGHT_GRAY_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.RED_BRASS_CASING,CECBlocks.RED_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.GRAY_BRASS_CASING,CECBlocks.GRAY_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.BLACK_BRASS_CASING,CECBlocks.BLACK_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.WHITE_BRASS_CASING,CECBlocks.WHITE_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.LIGHT_BLUE_BRASS_CASING,CECBlocks.LIGHT_BLUE_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.BLUE_BRASS_CASING,CECBlocks.BLUE_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.YELLOW_BRASS_CASING,CECBlocks.YELLOW_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.GREEN_BRASS_CASING,CECBlocks.GREEN_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.ORANGE_BRASS_CASING,CECBlocks.ORANGE_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.PINK_BRASS_CASING,CECBlocks.PINK_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.MAGENTA_BRASS_CASING,CECBlocks.MAGENTA_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.LIME_BRASS_CASING,CECBlocks.LIME_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.BROWN_BRASS_CASING,CECBlocks.BROWN_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.CYAN_BRASS_CASING,CECBlocks.CYAN_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.PURPLE_BRASS_CASING,CECBlocks.PURPLE_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.RGB_BRASS_CASING,CECBlocks.RGB_BELT_BRASS_CASING,stack,level,pos,player)) {
+            cir.setReturnValue(ItemInteractionResult.SUCCESS);
+            return;
+        }
     }
 
 
