@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "create_extra_casing:brown_brass_casing"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "create:brass_casing"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:brass_casing"
+    },
+    {
+      "item": "minecraft:light_gray_dye"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_extra_casing:light_gray_brass_casing"
+    }
+  ]
+}

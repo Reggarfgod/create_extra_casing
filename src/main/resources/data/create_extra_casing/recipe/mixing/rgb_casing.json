@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:andesite_casing"
+    },
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    }
+  ],
+  "results": [
+    {
+      "item": {
+        "id": "create_extra_casing:rgb_casing"
+      }
+    }
+  ]
+}
