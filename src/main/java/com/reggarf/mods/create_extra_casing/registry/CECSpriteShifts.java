@@ -33,7 +33,7 @@ public class CECSpriteShifts {
     public static final SpriteShiftEntry RGB_BELT_CASING = getFromCreate("block/belt/brass_belt_casing", "block/rgb_belt_casing");
 
     //BRASS
-    public static final SpriteShiftEntry LIGHT_GRAY_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/light_gray_brass_belt_casing");
+    public static final SpriteShiftEntry LIGHT_GRAY_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/light_gray_belt_brass_casing");
     public static final SpriteShiftEntry RED_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/red_brass_belt_casing");
     public static final SpriteShiftEntry GRAY_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/gray_brass_belt_casing");
     public static final SpriteShiftEntry BLACK_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/black_brass_belt_casing");

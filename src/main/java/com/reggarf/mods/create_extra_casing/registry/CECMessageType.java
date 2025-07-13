@@ -48,7 +48,10 @@ public class CECMessageType {
     // ===================== Styled Message Sender =====================
     private static void sendStyledMessages(ServerPlayer player) {
         // Title message
-        Component title = Component.literal("Hello! Thanks for downloading! I'm still working on the mod This update adds new brass-colored casings, and copper-colored ones are coming in the future! ")
+        Component title = Component.literal("Hello! "+
+                        "Thanks for downloading! I'm still actively working on the mod." +
+                        "This update adds new brass-colored casings, and copper-colored ones are coming in a future update!" +
+                        "Check out the changelog for more details. ")
                 .append(Component.literal("Create: Extra Casing")
                         .setStyle(Style.EMPTY.withColor(parseTextColor(titleColor))));
 
@@ -57,9 +60,9 @@ public class CECMessageType {
 
         // Discord CTA
         Component discord = Component.literal(" - ")
-                .append(Component.literal("Join our Discord ")
+                .append(Component.literal("Changelog/Discord ")
                         .setStyle(Style.EMPTY
-                                .withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://discord.com/invite/CN962KMpJk"))
+                                .withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://discord.gg/HPWjqGxEkA"))
                                 .withColor(parseTextColor(discordColor))
                                 .withUnderlined(true)))
                 .append(Component.literal(" (support, updates)"));
