@@ -125,11 +125,11 @@
   "block.create_extra_casing.gray_encased_large_cogwheel": "Большая шестерня в сером андезитовом корпусе",
   "block.create_extra_casing.gray_encased_shaft": "Вал в сером андезитовом корпусе",
 
-  "block.create_extra_casing.light_gray_casing": "Светло-серый корпус",
-  "block.create_extra_casing.light_gray_encased_fluid_pipe": "Жидкостная труба в светло-сером корпусе",
-  "block.create_extra_casing.light_gray_encased_cogwheel": "Шестерня в светло-сером корпусе",
-  "block.create_extra_casing.light_gray_encased_large_cogwheel": "Большая шестерня в светло-сером корпусе",
-  "block.create_extra_casing.light_gray_encased_shaft": "Вал в светло-сером корпусе",
+  "block.create_extra_casing.light_gray_casing": "Светло-серый андезитовый корпус",
+  "block.create_extra_casing.light_gray_encased_fluid_pipe": "Жидкостная труба в светло-сером андезитовом корпусе",
+  "block.create_extra_casing.light_gray_encased_cogwheel": "Шестерня в светло-сером андезитовом корпусе",
+  "block.create_extra_casing.light_gray_encased_large_cogwheel": "Большая шестерня в светло-сером андезитовом корпусе",
+  "block.create_extra_casing.light_gray_encased_shaft": "Вал в светло-сером андезитовом корпусе",
 
   "block.create_extra_casing.green_casing": "Зелёный андезитовый корпус",
   "block.create_extra_casing.green_encased_fluid_pipe": "Жидкостная труба в зелёном андезитовом корпусе",
@@ -205,15 +205,15 @@
 
   "creativetab.create_extra_casing_tab": "Create: Extra Casing",
 
-  "create_extra_casing.ponder.shaft_extra_casing.header": "Обрамлением валов дополнительными корпусами",
+  "create_extra_casing.ponder.shaft_extra_casing.header": "Обрамлением валов цветными корпусами",
   "create_extra_casing.ponder.shaft_extra_casing.text_1": "Цветные корпуса можно использовать для украшения валов",
 
-  "create_extra_casing.ponder.cogwheel_extra_casing.header": "Обрамлением шестерней дополнительными корпусами",
+  "create_extra_casing.ponder.cogwheel_extra_casing.header": "Обрамлением шестерней цветными корпусами",
   "create_extra_casing.ponder.cogwheel_extra_casing.text_1": "Цветные корпуса можно использовать для украшения шестерней",
   "create_extra_casing.ponder.cogwheel_extra_casing.text_2": "Компоненты, обрамлённые в корпус, не будут иметь выхода вала",
   "create_extra_casing.ponder.cogwheel_extra_casing.text_3": "Гаечный ключ можно использовать для переключения соединений",
 
-  "create_extra_casing.ponder.belt_casing.header": "Обрамлением конвейеров дополнительными корпусами",
+  "create_extra_casing.ponder.belt_casing.header": "Обрамлением конвейеров цветными корпусами",
   "create_extra_casing.ponder.belt_casing.text_1": "Цветные корпуса можно использовать для украшения конвейеров",
   "create_extra_casing.ponder.belt_casing.text_2": "Используйте гаечный ключ, чтобы убрать корпус"
 }
