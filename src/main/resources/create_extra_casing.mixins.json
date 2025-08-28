@@ -9,7 +9,8 @@
     "create.BeltBlockEntityMixin",
     "create.BeltBlockMixin",
     "create.BeltCasingTypeMixin",
-    "create.BeltModelMixin"
+    "create.BeltModelMixin",
+    "minecraft.BlockEntityTypeMixin"
   ],
   "client": [
   ],

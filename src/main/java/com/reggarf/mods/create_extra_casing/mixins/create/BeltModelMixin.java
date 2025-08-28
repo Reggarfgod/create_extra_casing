@@ -1,6 +1,7 @@
 package com.reggarf.mods.create_extra_casing.mixins.create;
 
 import com.reggarf.mods.create_extra_casing.registry.CECBlocks;
+import com.reggarf.mods.create_extra_casing.registry.CECPartialModels;
 import com.reggarf.mods.create_extra_casing.registry.CECSpriteShifts;
 import com.simibubi.create.AllPartialModels;
 import com.simibubi.create.content.kinetics.belt.BeltBlockEntity;
@@ -142,6 +143,61 @@ public class BeltModelMixin {
         if (type.equals(CECBlocks.RGB_BELT_BRASS_CASING)) {
             cir.setReturnValue(CECSpriteShifts.RGB_BELT_BRASS_CASING.getOriginal());
         }
+
+        //copper
+
+        if (type.equals(CECBlocks.LIGHT_GRAY_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.LIGHT_GRAY_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.RED_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.RED_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.GRAY_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.GRAY_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.BLACK_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.BLACK_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.WHITE_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.WHITE_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.LIGHT_BLUE_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.LIGHT_BLUE_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.BLUE_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.BLUE_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.GREEN_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.GREEN_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.BROWN_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.BROWN_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.PURPLE_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.PURPLE_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.ORANGE_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.ORANGE_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.YELLOW_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.YELLOW_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.PINK_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.PINK_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.LIME_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.LIME_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.MAGENTA_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.MAGENTA_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.CYAN_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.CYAN_BELT_COPPER_CASING.getOriginal());
+        }
+        if (type.equals(CECBlocks.RGB_BELT_COPPER_CASING)) {
+            cir.setReturnValue(CECSpriteShifts.RGB_BELT_COPPER_CASING.getOriginal());
+        }
+
 
     }
 
@@ -286,6 +342,78 @@ public class BeltModelMixin {
             quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
             quads.addAll((alongX ? AllPartialModels.BRASS_BELT_COVER_X : AllPartialModels.BRASS_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
         }
+       //copper
+
+
+        if (type.equals(CECBlocks.LIGHT_GRAY_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.RED_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.GRAY_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.BLACK_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.WHITE_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.LIGHT_BLUE_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.BLUE_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.BROWN_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.GREEN_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.YELLOW_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.ORANGE_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.PINK_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.LIME_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.MAGENTA_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.CYAN_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.PURPLE_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+        if (type.equals(CECBlocks.RGB_BELT_COPPER_CASING)){
+            quads.removeAll(coverModel.getQuads(state, side, rand, extraData, renderType));
+            quads.addAll((alongX ? CECPartialModels.COPPER_BELT_COVER_X : CECPartialModels.COPPER_BELT_COVER_Z).get().getQuads(state, side, rand, extraData, renderType));
+        }
+
 
     }
 
@@ -447,6 +575,84 @@ public class BeltModelMixin {
             return;
         }
 
+      // COPPER
+
+        if (type.equals(CECBlocks.LIGHT_GRAY_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.LIGHT_GRAY_BELT_COPPER_CASING));
+            return;
+        }
+        if (type.equals(CECBlocks.RED_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.RED_BELT_COPPER_CASING));
+            return;
+        }
+        if (type.equals(CECBlocks.GRAY_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.GRAY_BELT_COPPER_CASING));
+            return;
+        }
+        if (type.equals(CECBlocks.BLACK_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.BLACK_BELT_COPPER_CASING));
+            return;
+        }
+        if (type.equals(CECBlocks.WHITE_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.WHITE_BELT_COPPER_CASING));
+            return;
+        }
+        if (type.equals(CECBlocks.LIGHT_BLUE_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.LIGHT_BLUE_BELT_COPPER_CASING));
+            return;
+        }
+        if (type.equals(CECBlocks.BLUE_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.BLUE_BELT_COPPER_CASING));
+            return;
+        }
+        if (type.equals(CECBlocks.BROWN_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.BROWN_BELT_COPPER_CASING));
+            return;
+        }
+
+        if (type.equals(CECBlocks.GREEN_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.GREEN_BELT_COPPER_CASING));
+            return;
+        }
+
+        if (type.equals(CECBlocks.YELLOW_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.YELLOW_BELT_COPPER_CASING));
+            return;
+        }
+
+        if (type.equals(CECBlocks.ORANGE_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.ORANGE_BELT_COPPER_CASING));
+            return;
+        }
+
+        if (type.equals(CECBlocks.PINK_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.PINK_BELT_COPPER_CASING));
+            return;
+        }
+
+        if (type.equals(CECBlocks.LIME_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.LIME_BELT_COPPER_CASING));
+            return;
+        }
+
+        if (type.equals(CECBlocks.MAGENTA_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.MAGENTA_BELT_COPPER_CASING));
+            return;
+        }
+
+        if (type.equals(CECBlocks.CYAN_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.CYAN_BELT_COPPER_CASING));
+            return;
+        }
+
+        if (type.equals(CECBlocks.PURPLE_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.PURPLE_BELT_COPPER_CASING));
+            return;
+        }
+        if (type.equals(CECBlocks.RGB_BELT_COPPER_CASING)){
+            cir.setReturnValue(getQuadsForSprite(quads, CECSpriteShifts.RGB_BELT_COPPER_CASING));
+            return;
+        }
 
 
     }

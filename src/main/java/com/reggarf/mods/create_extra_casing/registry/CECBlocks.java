@@ -1176,6 +1176,228 @@ public class CECBlocks {
     public static final BlockEntry<CECEncasedPipeBlock> RGB_BRASS_ENCASED_FLUID_PIPE = registerEncasedPipe(RGB_ID, RGB_BRASS, RGB_BRASS_CT, RGB_BRASS_CASING_SUPPLIER);
 
 
+    //RED
+    private static final MapColor RED_COPPER = MapColor.COLOR_RED;
+    private static final String RED_C_ID = "red_copper";
+    private static final Supplier<CTSpriteShiftEntry> RED_COPPER_CT = () -> CECSpriteShifts.RED_COPPER_CASING;
+    private static final Supplier<Block> RED_COPPER_CASING_SUPPLIER = () -> CECBlocks.RED_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType RED_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> RED_COPPER_CASING = registerCasing(RED_C_ID, RED_COPPER, RED_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> RED_COPPER_ENCASED_SHAFT = registerEncasedShaft(RED_C_ID, RED_COPPER, RED_COPPER_CT, RED_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> RED_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(RED_C_ID, RED_COPPER, RED_COPPER_CT, RED_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> RED_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(RED_C_ID, RED_COPPER, RED_COPPER_CT, RED_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> RED_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(RED_C_ID, RED_COPPER, RED_COPPER_CT, RED_COPPER_CASING_SUPPLIER);
+
+    //WHITE
+    private static final MapColor WHITE_COPPER = MapColor.SNOW;
+    private static final String WHITE_C_ID = "white_copper";
+    private static final Supplier<CTSpriteShiftEntry> WHITE_COPPER_CT = () -> CECSpriteShifts.WHITE_COPPER_CASING;
+    private static final Supplier<Block> WHITE_COPPER_CASING_SUPPLIER = () -> CECBlocks.WHITE_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType WHITE_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> WHITE_COPPER_CASING = registerCasing(WHITE_C_ID, WHITE_COPPER, WHITE_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> WHITE_COPPER_ENCASED_SHAFT = registerEncasedShaft(WHITE_C_ID, WHITE_COPPER, WHITE_COPPER_CT, WHITE_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> WHITE_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(WHITE_C_ID, WHITE_COPPER, WHITE_COPPER_CT, WHITE_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> WHITE_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(WHITE_C_ID, WHITE_COPPER, WHITE_COPPER_CT, WHITE_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> WHITE_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(WHITE_C_ID, WHITE_COPPER, WHITE_COPPER_CT, WHITE_COPPER_CASING_SUPPLIER);
+
+    //BLACK
+    private static final MapColor BLACK_COPPER = MapColor.COLOR_BLACK;
+    private static final String BLACK_C_ID = "black_copper";
+    private static final Supplier<CTSpriteShiftEntry> BLACK_COPPER_CT = () -> CECSpriteShifts.BLACK_COPPER_CASING;
+    private static final Supplier<Block> BLACK_COPPER_CASING_SUPPLIER = () -> CECBlocks.BLACK_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType BLACK_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> BLACK_COPPER_CASING = registerCasing(BLACK_C_ID, BLACK_COPPER, BLACK_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> BLACK_COPPER_ENCASED_SHAFT = registerEncasedShaft(BLACK_C_ID, BLACK_COPPER, BLACK_COPPER_CT, BLACK_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> BLACK_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(BLACK_C_ID, BLACK_COPPER, BLACK_COPPER_CT, BLACK_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> BLACK_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(BLACK_C_ID, BLACK_COPPER, BLACK_COPPER_CT, BLACK_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> BLACK_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(BLACK_C_ID, BLACK_COPPER, BLACK_COPPER_CT, BLACK_COPPER_CASING_SUPPLIER);
+
+    //GRAY
+    private static final MapColor GRAY_COPPER = MapColor.COLOR_GRAY;
+    private static final String GRAY_C_ID = "gray_copper";
+    private static final Supplier<CTSpriteShiftEntry> GRAY_COPPER_CT = () -> CECSpriteShifts.GRAY_COPPER_CASING;
+    private static final Supplier<Block> GRAY_COPPER_CASING_SUPPLIER = () -> CECBlocks.GRAY_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType GRAY_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> GRAY_COPPER_CASING = registerCasing(GRAY_C_ID, GRAY_COPPER, GRAY_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> GRAY_COPPER_ENCASED_SHAFT = registerEncasedShaft(GRAY_C_ID, GRAY_COPPER, GRAY_COPPER_CT, GRAY_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> GRAY_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(GRAY_C_ID, GRAY_COPPER, GRAY_COPPER_CT, GRAY_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> GRAY_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(GRAY_C_ID, GRAY_COPPER, GRAY_COPPER_CT, GRAY_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> GRAY_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(GRAY_C_ID, GRAY_COPPER, GRAY_COPPER_CT, GRAY_COPPER_CASING_SUPPLIER);
+
+    //LIGHT GRAY
+    private static final MapColor LIGHT_GRAY_COPPER = MapColor.COLOR_LIGHT_GRAY;
+    private static final String LIGHT_GRAY_C_ID = "light_gray_copper";
+    private static final Supplier<CTSpriteShiftEntry> LIGHT_GRAY_COPPER_CT = () -> CECSpriteShifts.LIGHT_GRAY_COPPER_CASING;
+    private static final Supplier<Block> LIGHT_GRAY_COPPER_CASING_SUPPLIER = () -> CECBlocks.LIGHT_GRAY_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType LIGHT_GRAY_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> LIGHT_GRAY_COPPER_CASING = registerCasing(LIGHT_GRAY_C_ID, LIGHT_GRAY_COPPER, LIGHT_GRAY_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> LIGHT_GRAY_COPPER_ENCASED_SHAFT = registerEncasedShaft(LIGHT_GRAY_C_ID, LIGHT_GRAY_COPPER, LIGHT_GRAY_COPPER_CT, LIGHT_GRAY_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> LIGHT_GRAY_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(LIGHT_GRAY_C_ID, LIGHT_GRAY_COPPER, LIGHT_GRAY_COPPER_CT, LIGHT_GRAY_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> LIGHT_GRAY_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(LIGHT_GRAY_C_ID, LIGHT_GRAY_COPPER, LIGHT_GRAY_COPPER_CT, LIGHT_GRAY_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> LIGHT_GRAY_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(LIGHT_GRAY_C_ID, LIGHT_GRAY_COPPER, LIGHT_GRAY_COPPER_CT, LIGHT_GRAY_COPPER_CASING_SUPPLIER);
+
+    //BLUE
+    private static final MapColor BLUE_COPPER = MapColor.COLOR_BLUE;
+    private static final String BLUE_C_ID = "blue_copper";
+    private static final Supplier<CTSpriteShiftEntry> BLUE_COPPER_CT = () -> CECSpriteShifts.BLUE_COPPER_CASING;
+    private static final Supplier<Block> BLUE_COPPER_CASING_SUPPLIER = () -> CECBlocks.BLUE_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType BLUE_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> BLUE_COPPER_CASING = registerCasing(BLUE_C_ID, BLUE_COPPER, BLUE_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> BLUE_COPPER_ENCASED_SHAFT = registerEncasedShaft(BLUE_C_ID, BLUE_COPPER, BLUE_COPPER_CT, BLUE_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> BLUE_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(BLUE_C_ID, BLUE_COPPER, BLUE_COPPER_CT, BLUE_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> BLUE_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(BLUE_C_ID, BLUE_COPPER, BLUE_COPPER_CT, BLUE_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> BLUE_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(BLUE_C_ID, BLUE_COPPER, BLUE_COPPER_CT, BLUE_COPPER_CASING_SUPPLIER);
+
+    //LIGHT BLUE
+    private static final MapColor LIGHT_BLUE_COPPER = MapColor.COLOR_LIGHT_BLUE;
+    private static final String LIGHT_BLUE_C_ID = "light_blue_copper";
+    private static final Supplier<CTSpriteShiftEntry> LIGHT_BLUE_COPPER_CT = () -> CECSpriteShifts.LIGHT_BLUE_COPPER_CASING;
+    private static final Supplier<Block> LIGHT_BLUE_COPPER_CASING_SUPPLIER = () -> CECBlocks.LIGHT_BLUE_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType LIGHT_BLUE_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> LIGHT_BLUE_COPPER_CASING = registerCasing(LIGHT_BLUE_C_ID, LIGHT_BLUE_COPPER, LIGHT_BLUE_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> LIGHT_BLUE_COPPER_ENCASED_SHAFT = registerEncasedShaft(LIGHT_BLUE_C_ID, LIGHT_BLUE_COPPER, LIGHT_BLUE_COPPER_CT, LIGHT_BLUE_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> LIGHT_BLUE_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(LIGHT_BLUE_C_ID, LIGHT_BLUE_COPPER, LIGHT_BLUE_COPPER_CT, LIGHT_BLUE_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> LIGHT_BLUE_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(LIGHT_BLUE_C_ID, LIGHT_BLUE_COPPER, LIGHT_BLUE_COPPER_CT, LIGHT_BLUE_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> LIGHT_BLUE_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(LIGHT_BLUE_C_ID, LIGHT_BLUE_COPPER, LIGHT_BLUE_COPPER_CT, LIGHT_BLUE_COPPER_CASING_SUPPLIER);
+
+    //GREEN
+    private static final MapColor GREEN_COPPER = MapColor.COLOR_GREEN;
+    private static final String GREEN_C_ID = "green_copper";
+    private static final Supplier<CTSpriteShiftEntry> GREEN_COPPER_CT = () -> CECSpriteShifts.GREEN_COPPER_CASING;
+    private static final Supplier<Block> GREEN_COPPER_CASING_SUPPLIER = () -> CECBlocks.GREEN_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType GREEN_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> GREEN_COPPER_CASING = registerCasing(GREEN_C_ID, GREEN_COPPER, GREEN_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> GREEN_COPPER_ENCASED_SHAFT = registerEncasedShaft(GREEN_C_ID, GREEN_COPPER, GREEN_COPPER_CT, GREEN_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> GREEN_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(GREEN_C_ID, GREEN_COPPER, GREEN_COPPER_CT, GREEN_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> GREEN_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(GREEN_C_ID, GREEN_COPPER, GREEN_COPPER_CT, GREEN_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> GREEN_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(GREEN_C_ID, GREEN_COPPER, GREEN_COPPER_CT, GREEN_COPPER_CASING_SUPPLIER);
+
+    //LIME
+    private static final MapColor LIME_COPPER = MapColor.COLOR_LIGHT_GREEN;
+    private static final String LIME_C_ID = "lime_copper";
+    private static final Supplier<CTSpriteShiftEntry> LIME_COPPER_CT = () -> CECSpriteShifts.LIME_COPPER_CASING;
+    private static final Supplier<Block> LIME_COPPER_CASING_SUPPLIER = () -> CECBlocks.LIME_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType LIME_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> LIME_COPPER_CASING = registerCasing(LIME_C_ID, LIME_COPPER, LIME_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> LIME_COPPER_ENCASED_SHAFT = registerEncasedShaft(LIME_C_ID, LIME_COPPER, LIME_COPPER_CT, LIME_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> LIME_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(LIME_C_ID, LIME_COPPER, LIME_COPPER_CT, LIME_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> LIME_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(LIME_C_ID, LIME_COPPER, LIME_COPPER_CT, LIME_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> LIME_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(LIME_C_ID, LIME_COPPER, LIME_COPPER_CT, LIME_COPPER_CASING_SUPPLIER);
+
+    //CYAN
+    private static final MapColor CYAN_COPPER = MapColor.COLOR_CYAN;
+    private static final String CYAN_C_ID = "cyan_copper";
+    private static final Supplier<CTSpriteShiftEntry> CYAN_COPPER_CT = () -> CECSpriteShifts.CYAN_COPPER_CASING;
+    private static final Supplier<Block> CYAN_COPPER_CASING_SUPPLIER = () -> CECBlocks.CYAN_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType CYAN_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> CYAN_COPPER_CASING = registerCasing(CYAN_C_ID, CYAN_COPPER, CYAN_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> CYAN_COPPER_ENCASED_SHAFT = registerEncasedShaft(CYAN_C_ID, CYAN_COPPER, CYAN_COPPER_CT, CYAN_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> CYAN_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(CYAN_C_ID, CYAN_COPPER, CYAN_COPPER_CT, CYAN_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> CYAN_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(CYAN_C_ID, CYAN_COPPER, CYAN_COPPER_CT, CYAN_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> CYAN_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(CYAN_C_ID, CYAN_COPPER, CYAN_COPPER_CT, CYAN_COPPER_CASING_SUPPLIER);
+
+    //BROWN
+    private static final MapColor BROWN_COPPER = MapColor.COLOR_BROWN;
+    private static final String BROWN_C_ID = "brown_copper";
+    private static final Supplier<CTSpriteShiftEntry> BROWN_COPPER_CT = () -> CECSpriteShifts.BROWN_COPPER_CASING;
+    private static final Supplier<Block> BROWN_COPPER_CASING_SUPPLIER = () -> CECBlocks.BROWN_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType BROWN_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> BROWN_COPPER_CASING = registerCasing(BROWN_C_ID, BROWN_COPPER, BROWN_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> BROWN_COPPER_ENCASED_SHAFT = registerEncasedShaft(BROWN_C_ID, BROWN_COPPER, BROWN_COPPER_CT, BROWN_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> BROWN_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(BROWN_C_ID, BROWN_COPPER, BROWN_COPPER_CT, BROWN_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> BROWN_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(BROWN_C_ID, BROWN_COPPER, BROWN_COPPER_CT, BROWN_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> BROWN_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(BROWN_C_ID, BROWN_COPPER, BROWN_COPPER_CT, BROWN_COPPER_CASING_SUPPLIER);
+
+    //ORANGE
+    private static final MapColor ORANGE_COPPER = MapColor.COLOR_ORANGE;
+    private static final String ORANGE_C_ID = "orange_copper";
+    private static final Supplier<CTSpriteShiftEntry> ORANGE_COPPER_CT = () -> CECSpriteShifts.ORANGE_COPPER_CASING;
+    private static final Supplier<Block> ORANGE_COPPER_CASING_SUPPLIER = () -> CECBlocks.ORANGE_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType ORANGE_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> ORANGE_COPPER_CASING = registerCasing(ORANGE_C_ID, ORANGE_COPPER, ORANGE_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> ORANGE_COPPER_ENCASED_SHAFT = registerEncasedShaft(ORANGE_C_ID, ORANGE_COPPER, ORANGE_COPPER_CT, ORANGE_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> ORANGE_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(ORANGE_C_ID, ORANGE_COPPER, ORANGE_COPPER_CT, ORANGE_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> ORANGE_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(ORANGE_C_ID, ORANGE_COPPER, ORANGE_COPPER_CT, ORANGE_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> ORANGE_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(ORANGE_C_ID, ORANGE_COPPER, ORANGE_COPPER_CT, ORANGE_COPPER_CASING_SUPPLIER);
+
+    //YELLOW
+    private static final MapColor YELLOW_COPPER = MapColor.COLOR_YELLOW;
+    private static final String YELLOW_C_ID = "yellow_copper";
+    private static final Supplier<CTSpriteShiftEntry> YELLOW_COPPER_CT = () -> CECSpriteShifts.YELLOW_COPPER_CASING;
+    private static final Supplier<Block> YELLOW_COPPER_CASING_SUPPLIER = () -> CECBlocks.YELLOW_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType YELLOW_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> YELLOW_COPPER_CASING = registerCasing(YELLOW_C_ID, YELLOW_COPPER, YELLOW_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> YELLOW_COPPER_ENCASED_SHAFT = registerEncasedShaft(YELLOW_C_ID, YELLOW_COPPER, YELLOW_COPPER_CT, YELLOW_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> YELLOW_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(YELLOW_C_ID, YELLOW_COPPER, YELLOW_COPPER_CT, YELLOW_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> YELLOW_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(YELLOW_C_ID, YELLOW_COPPER, YELLOW_COPPER_CT, YELLOW_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> YELLOW_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(YELLOW_C_ID, YELLOW_COPPER, YELLOW_COPPER_CT, YELLOW_COPPER_CASING_SUPPLIER);
+
+    //MAGENTA
+    private static final MapColor MAGENTA_COPPER = MapColor.COLOR_MAGENTA;
+    private static final String MAGENTA_C_ID = "magenta_copper";
+    private static final Supplier<CTSpriteShiftEntry> MAGENTA_COPPER_CT = () -> CECSpriteShifts.MAGENTA_COPPER_CASING;
+    private static final Supplier<Block> MAGENTA_COPPER_CASING_SUPPLIER = () -> CECBlocks.MAGENTA_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType MAGENTA_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> MAGENTA_COPPER_CASING = registerCasing(MAGENTA_C_ID, MAGENTA_COPPER, MAGENTA_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> MAGENTA_COPPER_ENCASED_SHAFT = registerEncasedShaft(MAGENTA_C_ID, MAGENTA_COPPER, MAGENTA_COPPER_CT, MAGENTA_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> MAGENTA_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(MAGENTA_C_ID, MAGENTA_COPPER, MAGENTA_COPPER_CT, MAGENTA_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> MAGENTA_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(MAGENTA_C_ID, MAGENTA_COPPER, MAGENTA_COPPER_CT, MAGENTA_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> MAGENTA_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(MAGENTA_C_ID, MAGENTA_COPPER, MAGENTA_COPPER_CT, MAGENTA_COPPER_CASING_SUPPLIER);
+
+    //PINK
+    private static final MapColor PINK_COPPER = MapColor.COLOR_PINK;
+    private static final String PINK_C_ID = "pink_copper";
+    private static final Supplier<CTSpriteShiftEntry> PINK_COPPER_CT = () -> CECSpriteShifts.PINK_COPPER_CASING;
+    private static final Supplier<Block> PINK_COPPER_CASING_SUPPLIER = () -> CECBlocks.PINK_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType PINK_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> PINK_COPPER_CASING = registerCasing(PINK_C_ID, PINK_COPPER, PINK_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> PINK_COPPER_ENCASED_SHAFT = registerEncasedShaft(PINK_C_ID, PINK_COPPER, PINK_COPPER_CT, PINK_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> PINK_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(PINK_C_ID, PINK_COPPER, PINK_COPPER_CT, PINK_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> PINK_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(PINK_C_ID, PINK_COPPER, PINK_COPPER_CT, PINK_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> PINK_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(PINK_C_ID, PINK_COPPER, PINK_COPPER_CT, PINK_COPPER_CASING_SUPPLIER);
+
+    //PURPLE
+    private static final MapColor PURPLE_COPPER = MapColor.COLOR_PURPLE;
+    private static final String PURPLE_C_ID = "purple_copper";
+    private static final Supplier<CTSpriteShiftEntry> PURPLE_COPPER_CT = () -> CECSpriteShifts.PURPLE_COPPER_CASING;
+    private static final Supplier<Block> PURPLE_COPPER_CASING_SUPPLIER = () -> CECBlocks.PURPLE_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType PURPLE_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> PURPLE_COPPER_CASING = registerCasing(PURPLE_C_ID, PURPLE_COPPER, PURPLE_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> PURPLE_COPPER_ENCASED_SHAFT = registerEncasedShaft(PURPLE_C_ID, PURPLE_COPPER, PURPLE_COPPER_CT, PURPLE_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> PURPLE_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(PURPLE_C_ID, PURPLE_COPPER, PURPLE_COPPER_CT, PURPLE_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> PURPLE_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(PURPLE_C_ID, PURPLE_COPPER, PURPLE_COPPER_CT, PURPLE_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> PURPLE_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(PURPLE_C_ID, PURPLE_COPPER, PURPLE_COPPER_CT, PURPLE_COPPER_CASING_SUPPLIER);
+
+    //RGB
+    private static final MapColor RGB_COPPER = MapColor.COLOR_PURPLE;
+    private static final String RGB_C_ID = "rgb_copper";
+    private static final Supplier<CTSpriteShiftEntry> RGB_COPPER_CT = () -> CECSpriteShifts.RGB_COPPER_CASING;
+    private static final Supplier<Block> RGB_COPPER_CASING_SUPPLIER = () -> CECBlocks.RGB_COPPER_CASING.get();
+    public static BeltBlockEntity.CasingType RGB_BELT_COPPER_CASING;
+
+    public static final BlockEntry<CasingBlock> RGB_COPPER_CASING = registerCasing(RGB_C_ID, RGB_COPPER, RGB_COPPER_CT);
+    public static final BlockEntry<CECEncasedShaftBlock> RGB_COPPER_ENCASED_SHAFT = registerEncasedShaft(RGB_C_ID, RGB_COPPER, RGB_COPPER_CT, RGB_COPPER_CASING_SUPPLIER);
+    public static final BlockEntry<CECEncasedCogwheelBlock> RGB_COPPER_ENCASED_COGWHEEL = registerEncasedCogwheel(RGB_C_ID, RGB_COPPER, RGB_COPPER_CT, RGB_COPPER_CASING_SUPPLIER, false);
+    public static final BlockEntry<CECEncasedCogwheelBlock> RGB_COPPER_ENCASED_LARGE_COGWHEEL = registerEncasedCogwheel(RGB_C_ID, RGB_COPPER, RGB_COPPER_CT, RGB_COPPER_CASING_SUPPLIER, true);
+    public static final BlockEntry<CECEncasedPipeBlock> RGB_COPPER_ENCASED_FLUID_PIPE = registerEncasedPipe(RGB_C_ID, RGB_COPPER, RGB_COPPER_CT, RGB_COPPER_CASING_SUPPLIER);
+
+    ///  ////////////////////////////////////////////////////////////////////////////////////////////
 
 
     // --- Helpers ---

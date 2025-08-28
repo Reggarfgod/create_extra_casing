@@ -63,6 +63,24 @@ public class BeltCasingTypeMixin {
         CECBlocks.MAGENTA_BELT_BRASS_CASING = encased$addVariant("magenta_brass");
         CECBlocks.RGB_BELT_BRASS_CASING = encased$addVariant("rgb_brass");
 
+        CECBlocks.LIGHT_GRAY_BELT_COPPER_CASING = encased$addVariant("light_gray_copper");
+        CECBlocks.RED_BELT_COPPER_CASING = encased$addVariant("red_copper");
+        CECBlocks.GRAY_BELT_COPPER_CASING = encased$addVariant("gray_copper");
+        CECBlocks.BLACK_BELT_COPPER_CASING = encased$addVariant("black_copper");
+        CECBlocks.WHITE_BELT_COPPER_CASING = encased$addVariant("white_copper");
+        CECBlocks.LIGHT_BLUE_BELT_COPPER_CASING = encased$addVariant("light_blue_copper");
+        CECBlocks.BLUE_BELT_COPPER_CASING = encased$addVariant("blue_copper");
+        CECBlocks.BROWN_BELT_COPPER_CASING = encased$addVariant("brown_copper");
+        CECBlocks.GREEN_BELT_COPPER_CASING = encased$addVariant("green_copper");
+        CECBlocks.PURPLE_BELT_COPPER_CASING = encased$addVariant("purple_copper");
+        CECBlocks.LIME_BELT_COPPER_CASING = encased$addVariant("lime_copper");
+        CECBlocks.YELLOW_BELT_COPPER_CASING = encased$addVariant("yellow_copper");
+        CECBlocks.PINK_BELT_COPPER_CASING = encased$addVariant("pink_copper");
+        CECBlocks.ORANGE_BELT_COPPER_CASING = encased$addVariant("orange_copper");
+        CECBlocks.CYAN_BELT_COPPER_CASING = encased$addVariant("cyan_copper");
+        CECBlocks.MAGENTA_BELT_COPPER_CASING = encased$addVariant("magenta_copper");
+        CECBlocks.RGB_BELT_COPPER_CASING = encased$addVariant("rgb_copper");
+
     }
 
     @Unique

@@ -170,6 +170,78 @@ public abstract class BeltBlockMixin {
             cir.setReturnValue(InteractionResult.SUCCESS);
             return;
         }
+
+        // COPPER
+
+        if (cmr$customCasingUse(CECBlocks.LIGHT_GRAY_COPPER_CASING, CECBlocks.LIGHT_GRAY_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.RED_COPPER_CASING, CECBlocks.RED_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.GRAY_COPPER_CASING, CECBlocks.GRAY_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.BLACK_COPPER_CASING, CECBlocks.BLACK_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.WHITE_COPPER_CASING, CECBlocks.WHITE_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.LIGHT_BLUE_COPPER_CASING, CECBlocks.LIGHT_BLUE_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.BLUE_COPPER_CASING, CECBlocks.BLUE_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.YELLOW_COPPER_CASING, CECBlocks.YELLOW_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.GREEN_COPPER_CASING, CECBlocks.GREEN_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.ORANGE_COPPER_CASING, CECBlocks.ORANGE_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.PINK_COPPER_CASING, CECBlocks.PINK_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.MAGENTA_COPPER_CASING, CECBlocks.MAGENTA_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.LIME_COPPER_CASING, CECBlocks.LIME_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.BROWN_COPPER_CASING, CECBlocks.BROWN_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.CYAN_COPPER_CASING, CECBlocks.CYAN_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.PURPLE_COPPER_CASING, CECBlocks.PURPLE_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+        if (cmr$customCasingUse(CECBlocks.RGB_COPPER_CASING, CECBlocks.RGB_BELT_COPPER_CASING, heldItem, world, pos, player)) {
+            cir.setReturnValue(InteractionResult.SUCCESS);
+            return;
+        }
+
     }
 
 

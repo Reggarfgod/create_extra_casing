@@ -33,6 +33,23 @@
     "create_extra_casing:magenta_brass_casing",
     "create_extra_casing:pink_brass_casing",
     "create_extra_casing:purple_brass_casing",
-    "create_extra_casing:rgb_brass_casing"
+    "create_extra_casing:rgb_brass_casing",
+    "create_extra_casing:red_copper_casing",
+    "create_extra_casing:white_copper_casing",
+    "create_extra_casing:black_copper_casing",
+    "create_extra_casing:gray_copper_casing",
+    "create_extra_casing:light_gray_copper_casing",
+    "create_extra_casing:blue_copper_casing",
+    "create_extra_casing:light_blue_copper_casing",
+    "create_extra_casing:green_copper_casing",
+    "create_extra_casing:lime_copper_casing",
+    "create_extra_casing:cyan_copper_casing",
+    "create_extra_casing:brown_copper_casing",
+    "create_extra_casing:orange_copper_casing",
+    "create_extra_casing:yellow_copper_casing",
+    "create_extra_casing:magenta_copper_casing",
+    "create_extra_casing:pink_copper_casing",
+    "create_extra_casing:purple_copper_casing",
+    "create_extra_casing:rgb_copper_casing"
   ]
 }
