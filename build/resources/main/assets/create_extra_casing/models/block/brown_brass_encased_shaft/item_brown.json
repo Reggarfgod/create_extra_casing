@@ -1,7 +1,0 @@
-{
-	"parent": "create:block/encased_shaft/item",
-	"textures": {
-		"casing": "create_extra_casing:block/brown_brass_casing",
-		"opening": "create_extra_casing:block/brown_brass_gearbox"
-	}
-}

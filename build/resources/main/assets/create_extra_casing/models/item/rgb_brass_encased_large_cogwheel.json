@@ -1,9 +1,0 @@
-{
-  "parent": "create:block/encased_large_cogwheel/item",
-  "textures": {
-    "1": "create_extra_casing:block/rgb_brass_casing_log",
-    "casing": "create_extra_casing:block/rgb_brass_casing",
-    "particle": "create_extra_casing:block/rgb_brass_casing",
-    "side": "create_extra_casing:block/rgb_brass_encased_cogwheel_side_connected"
-  }
-}
