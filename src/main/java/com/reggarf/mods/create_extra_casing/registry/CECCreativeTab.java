@@ -60,7 +60,25 @@ public class CECCreativeTab {
                         pOutput.accept(CECBlocks.RED_BRASS_CASING.get());
                         pOutput.accept(CECBlocks.WHITE_BRASS_CASING.get());
                         pOutput.accept(CECBlocks.YELLOW_BRASS_CASING.get());
+                        //copper
 
+                        pOutput.accept(CECBlocks.RGB_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.BLACK_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.BLUE_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.BROWN_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.CYAN_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.GRAY_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.GREEN_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.LIGHT_BLUE_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.LIGHT_GRAY_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.LIME_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.MAGENTA_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.ORANGE_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.PINK_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.PURPLE_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.RED_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.WHITE_COPPER_CASING.get());
+                        pOutput.accept(CECBlocks.YELLOW_COPPER_CASING.get());
                     })
                     .build());
 

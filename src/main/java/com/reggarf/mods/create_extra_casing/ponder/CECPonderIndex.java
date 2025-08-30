@@ -46,7 +46,28 @@ public class CECPonderIndex {
 						CECBlocks.YELLOW_BRASS_CASING,
 						CECBlocks.ORANGE_BRASS_CASING,
 						CECBlocks.CYAN_BRASS_CASING,
-						CECBlocks.RGB_BRASS_CASING )
+						CECBlocks.RGB_BRASS_CASING,
+
+
+                        //COPPER
+
+                        CECBlocks.RED_COPPER_CASING,
+                        CECBlocks.GRAY_COPPER_CASING,
+                        CECBlocks.BLUE_COPPER_CASING,
+                        CECBlocks.LIGHT_BLUE_COPPER_CASING,
+                        CECBlocks.LIGHT_GRAY_COPPER_CASING,
+                        CECBlocks.WHITE_COPPER_CASING,
+                        CECBlocks.GREEN_COPPER_CASING,
+                        CECBlocks.LIME_COPPER_CASING,
+                        CECBlocks.MAGENTA_COPPER_CASING,
+                        CECBlocks.PURPLE_COPPER_CASING,
+                        CECBlocks.PINK_COPPER_CASING,
+                        CECBlocks.BROWN_COPPER_CASING,
+                        CECBlocks.YELLOW_COPPER_CASING,
+                        CECBlocks.ORANGE_COPPER_CASING,
+                        CECBlocks.CYAN_COPPER_CASING,
+                        CECBlocks.RGB_COPPER_CASING)
+
 
 				.addStoryBoard("createextracasing", CECKineticsScenes::shaftsCanBeEncased)
 				.addStoryBoard("createextracogcasing", CECKineticsScenes::cogAsRelay)

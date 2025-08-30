@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "create_extra_casing:yellow_copper_casing"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "create:copper_casing"
+    }
+  ]
+}

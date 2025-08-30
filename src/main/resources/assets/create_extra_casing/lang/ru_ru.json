@@ -101,6 +101,111 @@
   "block.create_extra_casing.rgb_brass_encased_large_cogwheel": "Большая шестерня в радужном латунном корпусе",
   "block.create_extra_casing.rgb_brass_encased_shaft": "Вал в радужном латунном корпусе",
 
+
+  "block.create_extra_casing.red_copper_casing": "Красный медный корпус",
+  "block.create_extra_casing.red_copper_encased_fluid_pipe": "Жидкостная труба в красном медном корпусе",
+  "block.create_extra_casing.red_copper_encased_cogwheel": "Шестерня в красном медном корпусе",
+  "block.create_extra_casing.red_copper_encased_large_cogwheel": "Большая шестерня в красном медном корпусе",
+  "block.create_extra_casing.red_copper_encased_shaft": "Вал в красном медном корпусе",
+
+  "block.create_extra_casing.black_copper_casing": "Чёрный медный корпус",
+  "block.create_extra_casing.black_copper_encased_fluid_pipe": "Жидкостная труба в чёрном медном корпусе",
+  "block.create_extra_casing.black_copper_encased_cogwheel": "Шестерня в чёрном медном корпусе",
+  "block.create_extra_casing.black_copper_encased_large_cogwheel": "Большая шестерня в чёрном медном корпусе",
+  "block.create_extra_casing.black_copper_encased_shaft": "Вал в чёрном медном корпусе",
+
+  "block.create_extra_casing.white_copper_casing": "Белый медный корпус",
+  "block.create_extra_casing.white_copper_encased_fluid_pipe": "Жидкостная труба в белом медном корпусе",
+  "block.create_extra_casing.white_copper_encased_cogwheel": "Шестерня в белом медном корпусе",
+  "block.create_extra_casing.white_copper_encased_large_cogwheel": "Большая шестерня в белом медном корпусе",
+  "block.create_extra_casing.white_copper_encased_shaft": "Вал в белом медном корпусе",
+
+  "block.create_extra_casing.gray_copper_casing": "Серый медный корпус",
+  "block.create_extra_casing.gray_copper_encased_fluid_pipe": "Жидкостная труба в сером медном корпусе",
+  "block.create_extra_casing.gray_copper_encased_cogwheel": "Шестерня в сером медном корпусе",
+  "block.create_extra_casing.gray_copper_encased_large_cogwheel": "Большая шестерня в сером медном корпусе",
+  "block.create_extra_casing.gray_copper_encased_shaft": "Вал в сером медном корпусе",
+
+  "block.create_extra_casing.light_gray_copper_casing": "Светло-серый медный корпус",
+  "block.create_extra_casing.light_gray_copper_encased_fluid_pipe": "Жидкостная труба в светло-сером медном корпусе",
+  "block.create_extra_casing.light_gray_copper_encased_cogwheel": "Шестерня в светло-сером медном корпусе",
+  "block.create_extra_casing.light_gray_copper_encased_large_cogwheel": "Большая шестерня в светло-сером медном корпусе",
+  "block.create_extra_casing.light_gray_copper_encased_shaft": "Вал в светло-сером медном корпусе",
+
+  "block.create_extra_casing.green_copper_casing": "Зелёный медный корпус",
+  "block.create_extra_casing.green_copper_encased_fluid_pipe": "Жидкостная труба в зелёном медном корпусе",
+  "block.create_extra_casing.green_copper_encased_cogwheel": "Шестерня в зелёном медном корпусе",
+  "block.create_extra_casing.green_copper_encased_large_cogwheel": "Большая шестерня в зелёном медном корпусе",
+  "block.create_extra_casing.green_copper_encased_shaft": "Вал в зелёном медном корпусе",
+
+  "block.create_extra_casing.lime_copper_casing": "Лаймовый медный корпус",
+  "block.create_extra_casing.lime_copper_encased_fluid_pipe": "Жидкостная труба в лаймовом медном корпусе",
+  "block.create_extra_casing.lime_copper_encased_cogwheel": "Шестерня в лаймовом медном корпусе",
+  "block.create_extra_casing.lime_copper_encased_large_cogwheel": "Большая шестерня в лаймовом медном корпусе",
+  "block.create_extra_casing.lime_copper_encased_shaft": "Вал в лаймовом медном корпусе",
+
+  "block.create_extra_casing.blue_copper_casing": "Синий медный корпус",
+  "block.create_extra_casing.blue_copper_encased_fluid_pipe": "Жидкостная труба в синем медном корпусе",
+  "block.create_extra_casing.blue_copper_encased_cogwheel": "Шестерня в синем медном корпусе",
+  "block.create_extra_casing.blue_copper_encased_large_cogwheel": "Большая шестерня в синем медном корпусе",
+  "block.create_extra_casing.blue_copper_encased_shaft": "Вал в синем медном корпусе",
+
+  "block.create_extra_casing.pink_copper_casing": "Розовый медный корпус",
+  "block.create_extra_casing.pink_copper_encased_fluid_pipe": "Жидкостная труба в розовом медном корпусе",
+  "block.create_extra_casing.pink_copper_encased_cogwheel": "Шестерня в розовом медном корпусе",
+  "block.create_extra_casing.pink_copper_encased_large_cogwheel": "Большая шестерня в розовом медном корпусе",
+  "block.create_extra_casing.pink_copper_encased_shaft": "Вал в розовом медном корпусе",
+
+  "block.create_extra_casing.brown_copper_casing": "Коричневый медный корпус",
+  "block.create_extra_casing.brown_copper_encased_fluid_pipe": "Жидкостная труба в коричневом медном корпусе",
+  "block.create_extra_casing.brown_copper_encased_cogwheel": "Шестерня в коричневом медном корпусе",
+  "block.create_extra_casing.brown_copper_encased_large_cogwheel": "Большая шестерня в коричневом медном корпусе",
+  "block.create_extra_casing.brown_copper_encased_shaft": "Вал в коричневом медном корпусе",
+
+  "block.create_extra_casing.purple_copper_casing": "Фиолетовый медный корпус",
+  "block.create_extra_casing.purple_copper_encased_fluid_pipe": "Жидкостная труба в фиолетовом медном корпусе",
+  "block.create_extra_casing.purple_copper_encased_cogwheel": "Шестерня в фиолетовом медном корпусе",
+  "block.create_extra_casing.purple_copper_encased_large_cogwheel": "Большая шестерня в фиолетовом медном корпусе",
+  "block.create_extra_casing.purple_copper_encased_shaft": "Вал в фиолетовом медном корпусе",
+
+  "block.create_extra_casing.light_blue_copper_casing": "Голубой медный корпус",
+  "block.create_extra_casing.light_blue_copper_encased_fluid_pipe": "Жидкостная труба в голубом медном корпусе",
+  "block.create_extra_casing.light_blue_copper_encased_cogwheel": "Шестерня в голубом медном корпусе",
+  "block.create_extra_casing.light_blue_copper_encased_large_cogwheel": "Большая шестерня в голубом медном корпусе",
+  "block.create_extra_casing.light_blue_copper_encased_shaft": "Вал в голубом медном корпусе",
+
+  "block.create_extra_casing.orange_copper_casing": "Оранжевый медный корпус",
+  "block.create_extra_casing.orange_copper_encased_fluid_pipe": "Жидкостная труба в оранжевом медном корпусе",
+  "block.create_extra_casing.orange_copper_encased_cogwheel": "Шестерня в оранжевом медном корпусе",
+  "block.create_extra_casing.orange_copper_encased_large_cogwheel": "Большая шестерня в оранжевом медном корпусе",
+  "block.create_extra_casing.orange_copper_encased_shaft": "Вал в оранжевом медном корпусе",
+
+  "block.create_extra_casing.yellow_copper_casing": "Жёлтый медный корпус",
+  "block.create_extra_casing.yellow_copper_encased_fluid_pipe": "Жидкостная труба в жёлтом медном корпусе",
+  "block.create_extra_casing.yellow_copper_encased_cogwheel": "Шестерня в жёлтом медном корпусе",
+  "block.create_extra_casing.yellow_copper_encased_large_cogwheel": "Большая шестерня в жёлтом медном корпусе",
+  "block.create_extra_casing.yellow_copper_encased_shaft": "Вал в жёлтом медном корпусе",
+
+  "block.create_extra_casing.cyan_copper_casing": "Бирюзовый медный корпус",
+  "block.create_extra_casing.cyan_copper_encased_fluid_pipe": "Жидкостная труба в бирюзовом медном корпусе",
+  "block.create_extra_casing.cyan_copper_encased_cogwheel": "Шестерня в бирюзовом медном корпусе",
+  "block.create_extra_casing.cyan_copper_encased_large_cogwheel": "Большая шестерня в бирюзовом медном корпусе",
+  "block.create_extra_casing.cyan_copper_encased_shaft": "Вал в бирюзовом медном корпусе",
+
+  "block.create_extra_casing.magenta_copper_casing": "Пурпурный медный корпус",
+  "block.create_extra_casing.magenta_copper_encased_fluid_pipe": "Жидкостная труба в пурпурном медном корпусе",
+  "block.create_extra_casing.magenta_copper_encased_cogwheel": "Шестерня в пурпурном медном корпусе",
+  "block.create_extra_casing.magenta_copper_encased_large_cogwheel": "Большая шестерня в пурпурном медном корпусе",
+  "block.create_extra_casing.magenta_copper_encased_shaft": "Вал в пурпурном медном корпусе",
+
+  "block.create_extra_casing.rgb_copper_casing": "Радужный медный корпус",
+  "block.create_extra_casing.rgb_copper_encased_fluid_pipe": "Жидкостная труба в радужном медном корпусе",
+  "block.create_extra_casing.rgb_copper_encased_cogwheel": "Шестерня в радужном медном корпусе",
+  "block.create_extra_casing.rgb_copper_encased_large_cogwheel": "Большая шестерня в радужном медном корпусе",
+  "block.create_extra_casing.rgb_copper_encased_shaft": "Вал в радужном медном корпусе",
+
+
+
   "block.create_extra_casing.red_casing": "Красный андезитовый корпус",
   "block.create_extra_casing.red_encased_fluid_pipe": "Жидкостная труба в красном андезитовом корпусе",
   "block.create_extra_casing.red_encased_cogwheel": "Шестерня в красном андезитовом корпусе",

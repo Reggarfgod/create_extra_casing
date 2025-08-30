@@ -51,7 +51,7 @@ public class CECMessageType {
         // Title message
         Component title = Component.literal("Hello! "+
                         "Thanks for downloading! I'm still actively working on the mod." +
-                        "This update adds new brass-colored casings, and copper-colored ones are coming in a future update!" +
+                        "This update adds new copper-colored casing!" +
                         "Check out the changelog for more details. ")
                 .append(Component.literal("Create: Extra Casing")
                         .setStyle(Style.EMPTY.withColor(parseTextColor(titleColor))));

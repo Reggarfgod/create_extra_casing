@@ -51,6 +51,27 @@ public class CECSpriteShifts {
     public static final SpriteShiftEntry CYAN_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/cyan_brass_belt_casing");
     public static final SpriteShiftEntry RGB_BELT_BRASS_CASING = getFromCreate("block/belt/brass_belt_casing", "block/rgb_brass_belt_casing");
 
+    //COPPER
+    public static final SpriteShiftEntry LIGHT_GRAY_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/light_gray_belt_copper_casing");
+    public static final SpriteShiftEntry RED_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/red_copper_belt_casing");
+    public static final SpriteShiftEntry GRAY_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/gray_copper_belt_casing");
+    public static final SpriteShiftEntry BLACK_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/black_copper_belt_casing");
+    public static final SpriteShiftEntry WHITE_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/white_copper_belt_casing");
+    public static final SpriteShiftEntry LIGHT_BLUE_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/light_blue_belt_copper_casing");
+    public static final SpriteShiftEntry BLUE_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/blue_copper_belt_casing");
+    public static final SpriteShiftEntry YELLOW_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/yellow_copper_belt_casing");
+    public static final SpriteShiftEntry GREEN_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/green_copper_belt_casing");
+    public static final SpriteShiftEntry PURPLE_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/purple_copper_belt_casing");
+    public static final SpriteShiftEntry ORANGE_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/orange_copper_belt_casing");
+    public static final SpriteShiftEntry PINK_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/pink_copper_belt_casing");
+    public static final SpriteShiftEntry BROWN_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/brown_copper_belt_casing");
+    public static final SpriteShiftEntry MAGENTA_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/magenta_copper_belt_casing");
+    public static final SpriteShiftEntry LIME_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/lime_copper_belt_casing");
+    public static final SpriteShiftEntry CYAN_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/cyan_copper_belt_casing");
+    public static final SpriteShiftEntry RGB_BELT_COPPER_CASING = getFromCreate("block/belt/brass_belt_casing", "block/rgb_copper_belt_casing");
+
+
+
 
 
     public static final CTSpriteShiftEntry RED_CASING = omni( "red_casing"),
@@ -190,7 +211,77 @@ public class CECSpriteShifts {
             RGB_BRASS_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "rgb_brass_encased_cogwheel_side"),
             RGB_BRASS_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "rgb_brass_encased_cogwheel_side");
 
+    /// ////////////////////////////////////////
+    public static final CTSpriteShiftEntry RED_COPPER_CASING = getCT(OMNIDIRECTIONAL, "red_copper_casing"),
+            RED_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "red_copper_encased_cogwheel_side"),
+            RED_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "red_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry WHITE_COPPER_CASING = getCT(OMNIDIRECTIONAL, "white_copper_casing"),
+            WHITE_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "white_copper_encased_cogwheel_side"),
+            WHITE_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "white_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry BLACK_COPPER_CASING = getCT(OMNIDIRECTIONAL, "black_copper_casing"),
+            BLACK_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "black_copper_encased_cogwheel_side"),
+            BLACK_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "black_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry GRAY_COPPER_CASING = getCT(OMNIDIRECTIONAL, "gray_copper_casing"),
+            GRAY_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "gray_copper_encased_cogwheel_side"),
+            GRAY_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "gray_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry LIGHT_GRAY_COPPER_CASING = getCT(OMNIDIRECTIONAL, "light_gray_copper_casing"),
+            LIGHT_GRAY_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "light_gray_copper_encased_cogwheel_side"),
+            LIGHT_GRAY_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "light_gray_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry LIGHT_BLUE_COPPER_CASING = getCT(OMNIDIRECTIONAL, "light_blue_copper_casing"),
+            LIGHT_BLUE_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "light_blue_copper_encased_cogwheel_side"),
+            LIGHT_BLUE_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "light_blue_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry GREEN_COPPER_CASING = getCT(OMNIDIRECTIONAL, "green_copper_casing"),
+            GREEN_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "green_copper_encased_cogwheel_side"),
+            GREEN_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "green_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry LIME_COPPER_CASING = getCT(OMNIDIRECTIONAL, "lime_copper_casing"),
+            LIME_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "lime_copper_encased_cogwheel_side"),
+            LIME_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "lime_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry CYAN_COPPER_CASING = getCT(OMNIDIRECTIONAL, "cyan_copper_casing"),
+            CYAN_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "cyan_copper_encased_cogwheel_side"),
+            CYAN_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "cyan_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry BROWN_COPPER_CASING = getCT(OMNIDIRECTIONAL, "brown_copper_casing"),
+            BROWN_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "brown_copper_encased_cogwheel_side"),
+            BROWN_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "brown_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry BLUE_COPPER_CASING = getCT(OMNIDIRECTIONAL, "blue_copper_casing"),
+            BLUE_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "blue_copper_encased_cogwheel_side"),
+            BLUE_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "blue_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry ORANGE_COPPER_CASING = getCT(OMNIDIRECTIONAL, "orange_copper_casing"),
+            ORANGE_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "orange_copper_encased_cogwheel_side"),
+            ORANGE_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "orange_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry YELLOW_COPPER_CASING = getCT(OMNIDIRECTIONAL, "yellow_copper_casing"),
+            YELLOW_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "yellow_copper_encased_cogwheel_side"),
+            YELLOW_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "yellow_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry PINK_COPPER_CASING = getCT(OMNIDIRECTIONAL, "pink_copper_casing"),
+            PINK_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "pink_copper_encased_cogwheel_side"),
+            PINK_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "pink_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry MAGENTA_COPPER_CASING = getCT(OMNIDIRECTIONAL, "magenta_copper_casing"),
+            MAGENTA_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "magenta_copper_encased_cogwheel_side"),
+            MAGENTA_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "magenta_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry PURPLE_COPPER_CASING = getCT(OMNIDIRECTIONAL, "purple_copper_casing"),
+            PURPLE_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "purple_copper_encased_cogwheel_side"),
+            PURPLE_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "purple_copper_encased_cogwheel_side");
+
+    public static final CTSpriteShiftEntry RGB_COPPER_CASING = getCT(OMNIDIRECTIONAL, "rgb_copper_casing"),
+            RGB_COPPER_ENCASED_COGWHEEL_SIDE = getCT(VERTICAL, "rgb_copper_encased_cogwheel_side"),
+            RGB_COPPER_ENCASED_COGWHEEL_OTHERSIDE = getCT(HORIZONTAL, "rgb_copper_encased_cogwheel_side");
+
     //////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///
     private static CTSpriteShiftEntry getSideSprite(String id) {
         return switch (id) {
             case "red_brass" -> CECSpriteShifts.RED_BRASS_ENCASED_COGWHEEL_SIDE;
@@ -210,6 +301,25 @@ public class CECSpriteShifts {
             case "pink_brass" -> CECSpriteShifts.PINK_BRASS_ENCASED_COGWHEEL_SIDE;
             case "purple_brass" -> CECSpriteShifts.PURPLE_BRASS_ENCASED_COGWHEEL_SIDE;
             case "rgb_brass" -> CECSpriteShifts.RGB_BRASS_ENCASED_COGWHEEL_SIDE;
+
+            /// ////
+            case "red_copper" -> CECSpriteShifts.RED_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "white_copper" -> CECSpriteShifts.WHITE_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "black_copper" -> CECSpriteShifts.BLACK_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "gray_copper" -> CECSpriteShifts.GRAY_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "light_gray_copper" -> CECSpriteShifts.LIGHT_GRAY_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "blue_copper" -> CECSpriteShifts.BLUE_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "light_blue_copper" -> CECSpriteShifts.LIGHT_BLUE_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "green_copper" -> CECSpriteShifts.GREEN_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "lime_copper" -> CECSpriteShifts.LIME_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "cyan_copper" -> CECSpriteShifts.CYAN_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "brown_copper" -> CECSpriteShifts.BROWN_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "orange_copper" -> CECSpriteShifts.ORANGE_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "yellow_copper" -> CECSpriteShifts.YELLOW_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "magenta_copper" -> CECSpriteShifts.MAGENTA_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "pink_copper" -> CECSpriteShifts.PINK_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "purple_copper" -> CECSpriteShifts.PURPLE_COPPER_ENCASED_COGWHEEL_SIDE;
+            case "rgb_copper" -> CECSpriteShifts.RGB_COPPER_ENCASED_COGWHEEL_SIDE;
             // Add more colors here if needed
             default -> null;
         };
@@ -234,6 +344,26 @@ public class CECSpriteShifts {
             case "pink_brass" -> CECSpriteShifts.PINK_BRASS_ENCASED_COGWHEEL_OTHERSIDE;
             case "purple_brass" -> CECSpriteShifts.PURPLE_BRASS_ENCASED_COGWHEEL_OTHERSIDE;
             case "rgb_brass" -> CECSpriteShifts.RGB_BRASS_ENCASED_COGWHEEL_OTHERSIDE;
+
+            /// ///////
+            case "red_copper" -> CECSpriteShifts.RED_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "white_copper" -> CECSpriteShifts.WHITE_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "black_copper" -> CECSpriteShifts.BLACK_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "gray_copper" -> CECSpriteShifts.GRAY_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "light_gray_copper" -> CECSpriteShifts.LIGHT_GRAY_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "blue_copper" -> CECSpriteShifts.BLUE_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "light_blue_copper" -> CECSpriteShifts.LIGHT_BLUE_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "green_copper" -> CECSpriteShifts.GREEN_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "lime_copper" -> CECSpriteShifts.LIME_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "cyan_copper" -> CECSpriteShifts.CYAN_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "brown_copper" -> CECSpriteShifts.BROWN_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "orange_copper" -> CECSpriteShifts.ORANGE_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "yellow_copper" -> CECSpriteShifts.YELLOW_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "magenta_copper" -> CECSpriteShifts.MAGENTA_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "pink_copper" -> CECSpriteShifts.PINK_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "purple_copper" -> CECSpriteShifts.PURPLE_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+            case "rgb_copper" -> CECSpriteShifts.RGB_COPPER_ENCASED_COGWHEEL_OTHERSIDE;
+
             // Add more colors here if needed
             default -> null;
         };

@@ -5,10 +5,11 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "create_extra_casing.refmap.json",
   "mixins": [
-    "BeltBlockEntityMixin",
-    "BeltBlockMixin",
-    "BeltCasingTypeMixin",
-    "BeltModelMixin"
+    "create.BeltBlockEntityMixin",
+    "create.BeltBlockMixin",
+    "create.BeltCasingTypeMixin",
+    "create.BeltModelMixin",
+    "minecraft.BlockEntityTypeMixin"
   ],
   "client": [
   ],

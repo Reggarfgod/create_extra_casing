@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:copper_casing"
+    },
+    {
+      "item": "minecraft:green_dye"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_extra_casing:green_copper_casing"
+    }
+  ]
+}
